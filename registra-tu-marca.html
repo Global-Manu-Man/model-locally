@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+        <meta name="theme-color" content="#49a5e4" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="#49a5e4" />
+
+        <title>Locallity</title>
+        <meta name="description" content="..." />
+
+        <meta name="robots" content="noindex">
+
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+
+        <link rel="icon" href="http://127.0.0.1/locallity.com/favicon.ico" type="image/png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="http://127.0.0.1/locallity/assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="http://127.0.0.1/locallity/assets/css/color.primary.css" />
+        <link rel="stylesheet" type="text/css" href="http://127.0.0.1/locallity/assets/css/main-v.1.1.css" />
+        
+        <link rel="stylesheet" type="text/css" href="http://127.0.0.1/locallity/assets/vendor/fancybox/css/jquery.fancybox.min.css" />
+
+        <link rel="stylesheet" href="http://127.0.0.1/locallity.com/assets/fonts/material-design/css/materialdesignicons.min.css" />
+
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+        <!-- https://ganlanyuan.github.io/tiny-slider/ -->
+    </head>
+
+<body>
+    
+<div class="min-h-100vh  --bg-celeste-formulario">
+
+    <div id="--registra-tu-marca" class="container" style="max-width: 826px;">
+        <main class="pb-6">
+            <div class="pt-5 text-center  --texto-principal">
+                                <h2>Registra tu marca</h2>
+                <p style="font-size: 18px;">Completa el formulario para formar parte de la plataforma.</p>
+            </div>
+
+                        <div class="row g-5">
+                <div class="col-md-12 col-lg-12">
+
+                    <div class="--formulario">
+
+                        <hr class="mb-5">
+                        
+
+
+
+                                                <div id="--etapa-1">
+
+                                                        <h5 class="mb-4">Información General</h5>
+
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <label for="--nombre-negocio" class="form-label --label">Nombre del negocio</label>
+                                    <input type="text" class="form-control" id="--nombre-negocio" placeholder="Mi Negocio" value="" required>
+                                    <!-- <div class="invalid-feedback">Escribe el nombre de tu negocio.</div> -->
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="--nombre-y-apellido-contacto" class="form-label --label">Nombre y apellido de contacto</label>
+                                    <input type="text" class="form-control" id="--nombre-y-apellido-contacto" placeholder="ej. Juan Pérez" value="" required>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="--correo-contacto" class="form-label --label">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="--correo-contacto" placeholder="ej. juanperez@gmail.com">
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="--telefono-contacto" class="form-label --label">Teléfono de contacto</label>
+                                    <input type="text" class="form-control" id="--telefono-contacto" placeholder="ej. +52000000000" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row g-3" style="margin-bottom: 32px;">
+                                <div class="col-12">
+                                    <label class="form-label">Antigüedad del negocio</label>
+                                </div>
+                                <div class="--check-radios --antiguedad">
+                                    <div class=" form-check">
+                                        <input id="--antiguedad-0-1" name="--antiguedad-del-negocio" type="radio" class="form-check-input" checked required>
+                                        <label class="form-check-label" for="--antiguedad-0-1">0 - 1 años</label>
+                                    </div>
+                                    <div class=" form-check">
+                                        <input id="--antiguedad-2-5" name="--antiguedad-del-negocio" type="radio" class="form-check-input" required>
+                                        <label class="form-check-label" for="--antiguedad-2-5">2 - 5 años</label>
+                                    </div>
+                                    <div class=" form-check">
+                                        <input id="--antiguedad-5" name="--antiguedad-del-negocio" type="radio" class="form-check-input" required>
+                                        <label class="form-check-label" for="--antiguedad-5">+5 años</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <label for="--descripcion" class="form-label --label">Breve descripción del negocio</label>
+                                    <textarea class="form-control" id="--descripcion" placeholder="..." style="min-height: 60px;"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row g-3 mb-4">
+                                <div class="col-12">
+                                    <label class="form-label">¿Cuentas con servicio a domicilio?</label>
+                                </div>
+                                <div class="--check-radios --servicio-a-domicilio">
+                                    <div class=" form-check">
+                                        <input id="--servicio-a-domicilio-si" name="--servicio-a-domicilio" type="radio" class="form-check-input" checked required>
+                                        <label class="form-check-label" for="--servicio-a-domicilio-si">Sí</label>
+                                    </div>
+                                    <div class=" form-check">
+                                        <input id="--servicio-a-domicilio-no" name="--servicio-a-domicilio" type="radio" class="form-check-input" required>
+                                        <label class="form-check-label" for="--servicio-a-domicilio-no">No</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-3 mb-4">
+                                <div class="col-12">
+                                    <label class="form-label">¿Cuentas con envíos nacionales?</label>
+                                </div>
+                                <div class="--check-radios --envios-nacionales">
+                                    <div class=" form-check">
+                                        <input id="--envios-nacionales-si" name="--envios-nacionales" type="radio" class="form-check-input" checked required>
+                                        <label class="form-check-label" for="--envios-nacionales-si">Sí</label>
+                                    </div>
+                                    <div class=" form-check">
+                                        <input id="--envios-nacionales-no" name="--envios-nacionales" type="radio" class="form-check-input" required>
+                                        <label class="form-check-label" for="--envios-nacionales-no">No</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-3 mb-5">
+                                <div class="col-12">
+                                    <label class="form-label">¿Cuentas con facturación?</label>
+                                </div>
+                                <div class="--check-radios --facturacion">
+                                    <div class=" form-check">
+                                        <input id="--facturacion-si" name="--facturacion" type="radio" class="form-check-input" checked required>
+                                        <label class="form-check-label" for="--facturacion-si">Sí</label>
+                                    </div>
+                                    <div class=" form-check">
+                                        <input id="--facturacion-no" name="--facturacion" type="radio" class="form-check-input" required>
+                                        <label class="form-check-label" for="--facturacion-no">No</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="mb-5">
+
+                                                        <h5 class="mb-2">Filtro de Ubicación</h5>
+                            <p style="margin-bottom: 32px;">Completa de acuerdo a dónde es la sede de tu negocio o mercado principal.</p>
+
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <label for="--ubicacion-estado" class="form-label --label">Estado</label>
+                                    <select name="" id="--ubicacion-estado" class="form-control">
+                                        <option value="">Nuevo León</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="--ubicacion-ciudad" class="form-label --label">Ciudad</label>
+                                    <select name="" id="--ubicacion-ciudad" class="form-control">
+                                        <option value="">Monterrey</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="--ubicacion-municipio" class="form-label --label">Municipio</label>
+                                    <select name="" id="--ubicacion-municipio" class="form-control">
+                                        <option value="">Apodaca</option>
+                                        <option value="">Cadereyta Jiménez</option>
+                                        <option value="">García</option>
+                                        <option value="">General Escobedo</option>
+                                        <option value="">Guadalupe</option>
+                                        <option value="">Juárez</option>
+                                        <option value="">Monterrey</option>
+                                        <option value="">Pesquería</option>
+                                        <option value="">Salinas Victoria</option>
+                                        <option value="">San Nicolás de los Garza</option>
+                                        <option value="">San Pedro Garza García</option>
+                                        <option value="">Santa Catarina</option>
+                                        <option value="">Santiago</option>                                
+                                    </select>
+                                </div>
+                            </div>
+
+                            <hr class="mb-4">
+
+                            <div class="row">
+                                <div class="col-4 col-sm-3 pr-2">
+                                    
+                                </div>
+                                <div class="col-4 col-sm-6 d-flex justify-content-center  px-1">
+                                    <div class="align-self-center text-dark">Etapa 1 de 2</div>
+                                </div>
+                                <div class="col-4 col-sm-3 pl-2">
+                                    <button class="w-100 mb-0 btn btn-dark --btn-siguiente">Siguiente</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                                                <div id="--etapa-2" class="d-none">
+
+                                                        <h5 class="mb-4">Tienda Física</h5>
+
+                            <div class="row g-3 mb-2">
+                                <div class="col-12">
+                                    <label class="form-label">¿Cuentas con tienda física?</label>
+                                </div>
+                                <div class="--check-radios --tienda-fisica">
+                                    <div class=" form-check">
+                                        <input id="--tienda-fisica-si" name="--tienda-fisica" type="radio" class="form-check-input" checked required>
+                                        <label class="form-check-label" for="--tienda-fisica-si">Sí</label>
+                                    </div>
+                                    <div class=" form-check">
+                                        <input id="--tienda-fisica-no" name="--tienda-fisica" type="radio" class="form-check-input" required>
+                                        <label class="form-check-label" for="--tienda-fisica-no">No</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <p>Por el momento solamente estamos registrando 1 tienda física por negocio. Más adelante habrá una opción para tener +1 ubicación registrada.</p>
+                                </div>
+                            </div>
+
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <label for="--ubicacion-google-maps" class="form-label --label">Ubicación en Google Maps</label>
+                                    <input type="text" class="form-control" id="--ubicacion-google-maps" placeholder="Pega aquí el enlace de Maps a tu negocio" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row g-3 mb-4">
+                                <div class="col-12">
+                                    <label for="--dias-que-abren" class="form-label">Días que abren</label>
+                                    <div class="custom-control custom-checkbox py-1">
+                                        <input type="checkbox" class="custom-control-input" id="--lunes">
+                                        <label class="custom-control-label" for="--lunes">Lunes</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox py-1">
+                                        <input type="checkbox" class="custom-control-input" id="--martes">
+                                        <label class="custom-control-label" for="--martes">Martes</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox py-1">
+                                        <input type="checkbox" class="custom-control-input" id="--miercoles">
+                                        <label class="custom-control-label" for="--miercoles">Miércoles</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox py-1">
+                                        <input type="checkbox" class="custom-control-input" id="--jueves">
+                                        <label class="custom-control-label" for="--jueves">Jueves</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox py-1">
+                                        <input type="checkbox" class="custom-control-input" id="--viernes">
+                                        <label class="custom-control-label" for="--viernes">Viernes</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox py-1">
+                                        <input type="checkbox" class="custom-control-input" id="--sabado">
+                                        <label class="custom-control-label" for="--sabado">Sábado</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox py-1">
+                                        <input type="checkbox" class="custom-control-input" id="--domingo">
+                                        <label class="custom-control-label" for="--domingo">Domingo</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-3">
+                                <div class="col-12 mb-2">
+                                    <label class="form-label">Horarios</label>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="--horarios-hora-apertura-1" class="form-label --label">Hora de apertura</label>
+                                    <input type="text" class="form-control" id="--horarios-hora-apertura-1" placeholder="Hora de apertura" name="..." />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="--horarios-hora-cierre-1" class="form-label --label">Hora de cierre</label>
+                                    <input type="text" class="form-control" id="--horarios-hora-cierre-1" placeholder="Hora de cierre" name="..." />
+                                </div>
+                                <!-- <div class="col-12">
+                                    <p class="small position-relative mb-2" style="top: -18px;">Ej. de 08.30 a 12.00</p>
+                                </div> -->
+
+                                <!-- <div class="col-sm-6">
+                                    <label for="--horarios-hora-apertura-2" class="form-label --label">Hora de apertura</label>
+                                    <input type="text" class="form-control" id="--horarios-hora-apertura-2" placeholder="Hora de apertura" name="..." />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="--horarios-hora-cierre-2" class="form-label --label">Hora de cierre</label>
+                                    <input type="text" class="form-control" id="--horarios-hora-cierre-2" placeholder="Hora de cierre" name="..." />
+                                </div>
+                                <div class="col-12">
+                                    <p class="small position-relative mb-2" style="top: -18px;">Ej. de 16.30 a 19.45</p>
+                                </div> -->
+                            </div>
+
+
+                            <hr class="mb-5">
+
+
+                                                        <h5 class="mb-4">Tienda Online</h5>
+
+                            <div class="row g-3" style="margin-bottom: 28px;">
+                                <div class="col-12">
+                                    <label class="form-label">¿Cuentas con tienda online?</label>
+                                </div>
+                                <div class="--check-radios --tienda-online">
+                                    <div class=" form-check">
+                                        <input id="--tienda-online-si" name="--tienda-online" type="radio" class="form-check-input" checked required>
+                                        <label class="form-check-label" for="--tienda-online-si">Sí</label>
+                                    </div>
+                                    <div class=" form-check">
+                                        <input id="--tienda-online-no" name="--tienda-online" type="radio" class="form-check-input" required>
+                                        <label class="form-check-label" for="--tienda-online-no">No</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-3">
+                                <!-- <div class="col-12">
+                                    <label class="form-label">Enlaces web y sociales</label>
+                                </div> -->
+                                <div class="col-sm-6">
+                                    <label for="--link-web" class="form-label --label">Sitio web</label>
+                                    <input type="text" class="form-control" id="--link-web" placeholder="" value="">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="--link-facebook" class="form-label --label">Facebook</label>
+                                    <input type="text" class="form-control" id="--link-facebook" placeholder="" value="">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="--link-instagram" class="form-label --label">Instagram</label>
+                                    <input type="text" class="form-control" id="--link-instagram" placeholder="" value="">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="--link-tiktok" class="form-label --label">TikTok</label>
+                                    <input type="text" class="form-control" id="--link-tiktok" placeholder="" value="">
+                                </div>
+                                <div class="col-12 position-relative" style="top: -12px;">
+                                    <p class="mb-0">Los enlaces aparecerán en el directorio para que los usuarios lleguen a tu tienda online.</p>
+                                </div>
+                            </div>
+
+
+                            <hr class="mb-5">
+
+
+                                                        <div class="row g-3">
+
+                                <div class="col-12">
+                                    <h5 class="mb-2">Categoría y subcategoría</h5>
+                                    <p>Por el momento solo se puede selecccionar 1 categoría y 1 subcategoría por negocio. Selecciona aquellas en las que te gustaría aparecer.</p>
+                                </div>
+                            
+                                <div class="col-sm-6">
+                                    <label for="--categoria" class="form-label --label">Categoría</label>
+                                    <select name="" id="--categoria" class="form-control">
+                                        <option value="">Papelería</option>
+                                        <option value="">Eventos</option>
+                                        <option value="">Regalos</option>
+                                        <option value="">Bienestar</option>
+                                        <option value="">Hogar</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="--subcategoria" class="form-label --label">Subcategoría</label>
+                                    <select name="" id="--subcategoria" class="form-control">
+                                        <option value="">Muebles</option>
+                                        <option value="">Fragancias</option>
+                                        <option value="">Decoración General</option>
+                                        <option value="">Cocina</option>
+                                        <option value="">Mudanza</option>
+                                        <option value="">Exterior</option>
+                                        <option value="">Casa Inteligente</option>
+                                        <option value="">Diseño de Interiores</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                            <hr class="mb-5">
+
+
+                                                        <div class="row g-3">
+                                <div class="col-12">
+                                    <label class="form-label">¿Te gustaría agregar un código de descuento para los clientes que lleguen a tu negocio por medio de Locallity?</label>
+                                </div>
+
+                                <div class="--check-radios --codigo-de-descuento  mb-4">
+                                    <div class=" form-check">
+                                        <input id="--codigo-de-descuento-si" name="--codigo-de-descuento" type="radio" class="form-check-input" checked required>
+                                        <label class="form-check-label" for="--codigo-de-descuento-si">Sí</label>
+                                    </div>
+                                    <div class=" form-check">
+                                        <input id="--codigo-de-descuento-no" name="--codigo-de-descuento" type="radio" class="form-check-input" required>
+                                        <label class="form-check-label" for="--codigo-de-descuento-no">No</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label class="form-label">Agrega el código, fecha de vencimiento y una pequeña descripción de lo que sería el beneficio.</label>
+                                    <textarea class="form-control mb-1" id="--beneficio" placeholder="..." style="min-height: 60px;"></textarea>
+                                    <p>Ej. 10% de descuento en nuestra tienda en línea con el código LOCALLITY10 - vigencia al 30 de julio 2023.</p>
+                                </div>
+                            </div>
+
+
+                            <hr class="mb-4">
+
+
+                            <div class="row">
+                                <div class="col-4 col-sm-3 pr-2">
+                                    <button class="w-100 mb-0 btn btn-light --btn-atras">Atrás</button>
+                                </div>
+                                <div class="col-4 col-sm-6 d-flex justify-content-center  px-1">
+                                    <div class="align-self-center text-dark">Etapa 2 de 2</div>
+                                </div>
+                                <div class="col-4 col-sm-3 pl-2">
+                                    <button class="w-100 mb-0 btn btn-dark --btn-siguiente">Siguiente</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                                                <div id="--etapa-3" class="d-none">
+
+                            <div class="row g-3 mb-4">
+                                <div class="col-12">
+                                    <p>Atención: esta etapa es opcional, y no es estrictamente necesario que la completes ahora.</p>
+                                </div>
+                                
+                                <div class="col-12">
+                                    <label class="form-label">Sube alguna imagen que represente tus productos/servicios (opcional).</label>
+                                </div>
+                                <div class="col-12" style="height: 42px;">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="--subir-archivo-1" lang="es">
+                                        <label class="custom-file-label form-control h-auto" for="--subir-archivo-1" data-browse="Buscar">Seleccionar Archivo</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-3 mb-4">                                
+                                <div class="col-12">
+                                    <label class="form-label">Sube el <b>logo del negocio</b> en alta resolución (opcional).</label>
+                                </div>
+                                <div class="col-12" style="height: 42px;">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="--subir-archivo-1" lang="es">
+                                        <label class="custom-file-label form-control h-auto" for="--subir-archivo-1" data-browse="Buscar">Seleccionar Archivo</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-3 mb-4">                                
+                                <div class="col-12">
+                                    <p>Al enviar los datos, aceptas nuestros <a href="#">términos y condiciones</a>.</p>
+                                </div>
+                            </div>
+
+
+                            <hr class="mb-4">
+
+
+                            <div class="row">
+                                <div class="col-4 col-sm-3 pr-2">
+                                    <button class="w-100 mb-0 btn btn-light --btn-atras">Atrás</button>
+                                </div>
+                                <div class="col-3 col-sm-6 d-flex justify-content-center  px-1">
+                                    <div class="align-self-center text-dark"></div>
+                                </div>
+                                <div class="col-5 col-sm-3 pl-2">
+                                    <button class="w-100 mb-0 btn btn-dark --btn-siguiente">Enviar datos</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                                                <div id="--etapa-4" class="d-none">
+                            <div class="col-12">
+                                <p class="text-center">Tu información será revisada y cualquier dato adicional que requiramos te estaremos contactando al correo que agregaste en este formulario.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+        <script src="http://127.0.0.1/locallity.com/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="http://127.0.0.1/locallity.com/assets/vendor/popper.js/umd/popper.min.js"></script>
+    <script src="http://127.0.0.1/locallity.com/assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="http://127.0.0.1/locallity.com/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        
+    <script src="http://127.0.0.1/locallity.com/assets/js/functions.js"></script>
+    <script src="http://127.0.0.1/locallity.com/assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+    <script>
+        /*
+         var slider = tns({
+            container: '.--slider-home',
+            items: 1,
+            mouseDrag: true,
+            swipeAngle: false,
+            speed: 400,
+            slideBy: 1,
+            autoplay: true, autoplayTimeout: 3000, autoplayHoverPause: true, autoplayButtonOutput: false,
+            controlsText: ['<i class="mdi mdi-chevron-left"></i>', '<i class="mdi mdi-chevron-right"></i>'],
+            responsive: {
+                0: {
+                    items: 2
+                },
+                576: {
+                    items: 3
+                },
+                768: {
+                    items: 4
+                },
+                992: {
+                    items: 5
+                },
+                1200: {
+                    items: 6
+                }
+            }
+        }); */
+
+        // -----------------------------------------------------------------------------
+        // Smooth scrolling -- Va hacia el HASH (ej. .com/pagina#section-1)
+        // -----------------------------------------------------------------------------
+        var scrollLink = $('.scroll');
+        
+        scrollLink.click(function(e) {
+            e.preventDefault();
+            $('body,html').animate({
+            scrollTop: $(this.hash).offset().top
+            }, 1000 );
+        });
+
+        // -----------------------------------------------------------------------------
+        // Esto es del dropdown que muestra las categorías
+        // Podría haberse reducido la cantidad de código, pero como la maquetación quizás cambie, prefiero dejarlo así
+        // -----------------------------------------------------------------------------
+        $(".--ul-categorias").hover(function(){
+            $(".--elige-una-categoria").addClass("d-none");
+        })
+
+        $(".--comida").hover(function(){
+                $(".---comida").removeClass("d-none");
+            $(".---infantil-bebe").addClass("d-none");
+            $(".---hogar").addClass("d-none");
+            $(".---papeleria").addClass("d-none");
+            $(".---eventos").addClass("d-none");
+            $(".---bienestar").addClass("d-none");
+            $(".---regalos").addClass("d-none");
+            $(".---shopping").addClass("d-none");
+        })
+        $(".--infantil-bebe").hover(function(){
+            $(".---comida").addClass("d-none");
+                $(".---infantil-bebe").removeClass("d-none");
+            $(".---hogar").addClass("d-none");
+            $(".---papeleria").addClass("d-none");
+            $(".---eventos").addClass("d-none");
+            $(".---bienestar").addClass("d-none");
+            $(".---regalos").addClass("d-none");
+            $(".---shopping").addClass("d-none");
+        })
+        $(".--hogar").hover(function(){
+            $(".---comida").addClass("d-none");
+            $(".---infantil-bebe").addClass("d-none");
+                $(".---hogar").removeClass("d-none");
+            $(".---papeleria").addClass("d-none");
+            $(".---eventos").addClass("d-none");
+            $(".---bienestar").addClass("d-none");
+            $(".---regalos").addClass("d-none");
+            $(".---shopping").addClass("d-none");
+        })
+        $(".--papeleria").hover(function(){
+            $(".---comida").addClass("d-none");
+            $(".---infantil-bebe").addClass("d-none");
+            $(".---hogar").addClass("d-none");
+                $(".---papeleria").removeClass("d-none");
+            $(".---eventos").addClass("d-none");
+            $(".---bienestar").addClass("d-none");
+            $(".---regalos").addClass("d-none");
+            $(".---shopping").addClass("d-none");
+        })
+        $(".--eventos").hover(function(){
+            $(".---comida").addClass("d-none");
+            $(".---infantil-bebe").addClass("d-none");
+            $(".---hogar").addClass("d-none");
+            $(".---papeleria").addClass("d-none");
+                $(".---eventos").removeClass("d-none");
+            $(".---bienestar").addClass("d-none");
+            $(".---regalos").addClass("d-none");
+            $(".---shopping").addClass("d-none");
+        })
+        $(".--bienestar").hover(function(){
+            $(".---comida").addClass("d-none");
+            $(".---infantil-bebe").addClass("d-none");
+            $(".---hogar").addClass("d-none");
+            $(".---papeleria").addClass("d-none");
+            $(".---eventos").addClass("d-none");
+                $(".---bienestar").removeClass("d-none");
+            $(".---regalos").addClass("d-none");
+            $(".---shopping").addClass("d-none");
+        })
+        $(".--regalos").hover(function(){
+            $(".---comida").addClass("d-none");
+            $(".---infantil-bebe").addClass("d-none");
+            $(".---hogar").addClass("d-none");
+            $(".---papeleria").addClass("d-none");
+            $(".---eventos").addClass("d-none");
+            $(".---bienestar").addClass("d-none");
+                $(".---regalos").removeClass("d-none");
+            $(".---shopping").addClass("d-none");
+        })
+        $(".--shopping").hover(function(){
+            $(".---comida").addClass("d-none");
+            $(".---infantil-bebe").addClass("d-none");
+            $(".---hogar").addClass("d-none");
+            $(".---papeleria").addClass("d-none");
+            $(".---eventos").addClass("d-none");
+            $(".---bienestar").addClass("d-none");
+            $(".---regalos").addClass("d-none");
+            $(".---shopping").removeClass("d-none");
+        })
+    </script>
+
+    <!-- --------------------------------------------------------------------------
+    - Los scripts únicos para la página /registra-tu-marca.html empiezan a partir de acá
+    --------------------------------------------------------------------------- -->
+    <script src="http://127.0.0.1/locallity/assets/vendor/timedropper-jquery.js"></script>
+    <script src="http://127.0.0.1/locallity/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="http://127.0.0.1/locallity/assets/vendor/popper.js/umd/popper.min.js"></script>
+    <script src="http://127.0.0.1/locallity/assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="http://127.0.0.1/locallity/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <script>
+        // -----------------------------------------------------------------------------
+        // Etapa 1 de 3 :: Botón "siguiente"
+        // -----------------------------------------------------------------------------
+        $("#--etapa-1 .--btn-siguiente").click(function(){
+            $("#--etapa-1").addClass("d-none");
+            $("#--etapa-2").removeClass("d-none");
+            
+            $('html,body').animate({
+                scrollTop: 0
+            }, 700 );
+        });
+
+        // --
+        // -----------------------------------------------------------------------------
+        // Etapa 2 de 3 :: Botón "atras"
+        // -----------------------------------------------------------------------------
+        $("#--etapa-2 .--btn-atras").click(function(){
+            $("#--etapa-2").addClass("d-none");
+            $("#--etapa-1").removeClass("d-none"); // volvemos a etapa 1
+            
+            $('html,body').animate({
+                scrollTop: 0
+            }, 700 );
+        });
+        // -----------------------------------------------------------------------------
+        // Etapa 2 de 3 :: Botón "siguiente"
+        // -----------------------------------------------------------------------------
+        $("#--etapa-2 .--btn-siguiente").click(function(){
+            $("#--etapa-2").addClass("d-none");
+            $("#--etapa-3").removeClass("d-none");
+            
+            $('html,body').animate({
+                scrollTop: 0
+            }, 700 );
+        });
+
+        // --
+        // -----------------------------------------------------------------------------
+        // Etapa 3 de 3 :: Botón "atras"
+        // -----------------------------------------------------------------------------
+        $("#--etapa-3 .--btn-atras").click(function(){
+            $("#--etapa-3").addClass("d-none");
+            $("#--etapa-2").removeClass("d-none");
+            
+            $('html,body').animate({
+                scrollTop: 0
+            }, 700 );
+        });
+        // -----------------------------------------------------------------------------
+        // Etapa 3 de 3 :: Botón "siguiente"
+        // -----------------------------------------------------------------------------
+        $("#--etapa-3 .--btn-siguiente").click(function(){
+            $("#--etapa-3").addClass("d-none");
+            $("#--etapa-4").removeClass("d-none");
+            $(".--texto-principal").addClass("d-none");
+
+            $('html,body').animate({
+                scrollTop: 0
+            }, 700 );
+        });
+
+        // -----------------------------------------------------------------------------
+        // https://felixg.io/works/timedropper-jquery
+        // Acá inicio cada uno de los timeDropper
+        // https://felixg.io/docs/guides/timedropper-jquery/options
+        // -----------------------------------------------------------------------------
+        $('#--horarios-hora-apertura-1').timeDropper({
+            customClass: 'timeDropperLocallity',
+            format: 'HH:mm',
+            meridians: false
+        });
+        $('#--horarios-hora-cierre-1').timeDropper({
+            customClass: 'timeDropperLocallity',
+            format: 'HH:mm',
+            meridians: false
+        });
+        $('#--horarios-hora-apertura-2').timeDropper({
+            customClass: 'timeDropperLocallity',
+            format: 'HH:mm',
+            meridians: false
+        });
+        $('#--horarios-hora-cierre-2').timeDropper({
+            customClass: 'timeDropperLocallity',
+            format: 'HH:mm',
+            meridians: false
+        });
+    </script>
+
+</body>
+
+</html>

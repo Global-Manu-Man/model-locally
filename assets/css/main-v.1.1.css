@@ -1,0 +1,1090 @@
+/* Highlight Color */
+::selection { color: #11162b; background: #56caf7; }
+::-moz-selection { color: #11162b; background: #56caf7; }
+.form-control:focus {
+    border-color: #23adf0;
+}
+body {
+    /* max-width: 1536px; */
+    margin: auto;
+    background-color: #fff;
+    background: #f4f4f4;
+    font-family: 'Inter', sans-serif;
+}
+ul, ol {list-style: none}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Inter', sans-serif;
+}
+.nav-mainmenu-a {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    padding: 0 12px;
+    border-top: 2px solid transparent;
+}
+.btn-whatsapp {
+    display: block;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    position: fixed;
+    right: 12px;
+    bottom: 14px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+}
+a:hover {
+    color: #1d9ffe;
+}
+.primary-hover a:hover {
+    color: #1d9ffe !important;
+}
+.scrollbar-firefox {
+    scrollbar-color: #f7f8f9 transparent;
+    scrollbar-width: thin;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #11162b; color: #fff;
+    background-color: #56caf7;
+    border-color: #56caf7;
+}
+.btn-primary {
+    font-weight: 600;font-size: 14px;
+    color: #11162b; color: #fff;
+    background-color: #28b8ff;
+    border-color: #28b8ff;
+    color: #080f1a;
+}
+.btn-primary:hover {
+    color: #11162b; color: #fff;
+    background-color: #2286df;
+    border-color: #2286df;
+}
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0 rgba(103, 163, 199, 0.5);
+}
+
+
+/* ---------------------------------------------------------------------
+ * HEADER - LG-XL
+ * ------------------------------------------------------------------- */
+#--header-lg {
+    background-color: rgb(0, 0, 0);background-position: 0% 0%, 0% 0%, 0% 0%;background-position-y: 0%, 0%, 0%;background-attachment: scroll, scroll, scroll;background-image: linear-gradient(148.8deg, rgba(126, 126, 126, 0.8) 20.02%, rgba(17, 18, 18, 0.8) 82.31%), url('http://localhost/host/clientes/ronamontacargas.com/assets/img/0e9c70b0.png'), none;background-origin: padding-box, padding-box, padding-box;background-clip: border-box, border-box, border-box;background-blend-mode: overlay, normal, normal;background-repeat: no-repeat;background-size: cover;background-position-y: bottom;/*border-top: 3px solid #28b8ff;*/
+}
+#--header-lg .mdi {
+    font-size: 18px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #1d9ffe;
+}
+header {
+    height: 60px;
+}
+.logo {
+    height: 28px;width: auto;
+}
+
+/* ---------------------------------------------------------------------
+ * HEADER MOBILE - XS-MD
+ * ------------------------------------------------------------------- */
+#--header-xs .navbar-expand-lg {
+    background: #080b16e8;height: 50px;
+    background: #080b1640;
+}
+@media (max-width: 991.98px){
+    .navbar-collapse {background: #0a0c16;}
+    .navbar-nav .nav-item:hover {background: #1f536d;}
+    .navbar-nav .nav-item:hover a {color: #2d94ee;}
+}
+
+/* ---------------------------------------------------------------------
+ * TOP
+ * ------------------------------------------------------------------- */
+#--top {
+    position: relative;background-size: cover;
+    background-position-y: center;
+}
+#--top .--layer {
+    height: 100%;position: absolute;width: 100%;background: #070713bf;
+    /* display: none; */
+}
+#--top .--img-logo {
+    height: 94px;
+}
+#--top .btn-primary {
+    padding: 10px 22px 11px;
+}
+#--top .--p-1 {
+  color: #f4f4f4;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  width: 100%;
+  /* max-width: 572px; */
+}
+
+.white-form {width: 100%;padding: 50px 35px;border: 2px solid #11162b;background: #ffffff;border: 1px solid #ececec;}
+.white-form .p-quiero-que-me-contacten {color: #11162b;font-weight: 700;font-size: 28px;line-height: 32px;text-align: center;}
+.white-form label {color: #11162b;font-weight: 500;font-size: 13px;padding-left: 0.3rem;}
+.white-form input, .white-form textarea {border-top: none;border-left: none;border-right: none;border-radius: 0;padding: 0.3rem 0.3rem 0.5rem 0.3rem;font-size: 16px;}
+.white-form textarea {height: 72px;}
+.white-form .p-aceptar-politicas {color: #000;text-align: center;font-size: 13px;font-weight: 500;line-height: 17px;}
+.white-form .--btn-dark {background: #11162b;font-weight: 600;font-size: 14px;padding: 0.65rem 2rem;border-radius: 5px;color: #fff;}
+
+
+/* ---------------------------------------------------------------------
+ * Visión y misión
+ * ------------------------------------------------------------------- */
+#vision-y-mision {
+    background: #171719;
+}
+#vision-y-mision h2 {
+    color: #E6E6E6;font-family: 'Merriweather', serif;font-weight: 600;
+}
+#vision-y-mision .--p-1 {
+    max-width: 480px;font-size: 14px;line-height: 1.6;color: #d9d9d9;
+}
+#vision-y-mision .---card-1 {
+    background: #212121;border: none;
+}
+#vision-y-mision .---card-1 .card-body {
+    padding: 2rem 2rem;
+}
+#vision-y-mision .---card-1 .card-body h4 {
+    font-size: 24px;color: #e6e6e6;font-family: 'Merriweather', serif;font-weight: 600;
+}
+#vision-y-mision .---card-1 .card-body p {
+    font-size: 16px;line-height: 1.5;color: #e6e6e6;   
+}
+#vision-y-mision .---card-2 {
+    border: none;background: #28b8ff;
+}
+#vision-y-mision .---card-2 .card-body {
+    padding: 2rem 2rem;
+}
+#vision-y-mision .---card-2 .card-body h4 {
+    font-size: 24px;color: #181818;font-family: 'Merriweather', serif;font-weight: 600;
+}
+#vision-y-mision .---card-2 .card-body p {
+    font-size: 16px;line-height: 1.5;color: #161616;
+}
+
+/* ---------------------------------------------------------------------
+ * Nuestros valores
+ * ------------------------------------------------------------------- */
+#nuestros-valores {
+    background: #19191a;
+    background-color: rgb(47, 47, 47);
+    background-image: linear-gradient(148.8deg, rgba(17, 16, 12, 0.8) 20.02%, rgba(18, 18, 17, 0.8) 82.31%), url('http://localhost/host/clientes/ronamontacargas.com/assets/img/0e9c70b0.png'), none;
+    background-size: cover;
+    background-position-y: bottom;
+    border-top: 3px solid #28b8ff;
+}
+#nuestros-valores h2 {
+    font-weight: 700;
+    color: #28b8ff;
+    font-size: 32px;
+}
+#nuestros-valores .--p-1 {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #b5b5b5;
+}
+#nuestros-valores .card {
+    background: #503f0f2e;border: none;
+}
+#nuestros-valores .card .card-body {
+    padding: 2rem 2rem;
+}
+#nuestros-valores .card .card-body h3 {
+    font-size: 26px;font-weight: 700;color: #28b8ff;
+}
+#nuestros-valores .card .card-body p {
+    font-weight: 400;font-size: 17px;line-height: 1.5;color: #b5b5b5;
+}
+
+/* ---------------------------------------------------------------------
+ * Nuestros valores
+ * ------------------------------------------------------------------- */
+#--que-hacemos {
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(148.8deg, rgba(12, 12, 17, 0.8) 20.02%, rgba(17, 18, 18, 0.8) 82.31%), url('http://localhost/host/clientes/ronamontacargas.com/assets/img/0e9c70b0.png'), none;
+    background-size: cover;
+    background-position-y: bottom;
+    /* border-top: 3px solid #28b8ff; */
+}
+#--que-hacemos h2 {
+  font-weight: 700;
+  color: #28b8ff;
+  font-size: 32px;
+}
+#--que-hacemos p {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #b5b5b5;
+}
+#--que-hacemos .---card div {
+    background: #503f0f2e;
+}
+#--que-hacemos img {
+    width: 100%;height: 240px;object-fit: cover;
+    border-top: 4px solid #28b8ff;
+}
+#--que-hacemos .---card h4 {
+    color: #28b8ff;
+}
+#--que-hacemos .---card .--p {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #b5b5b5;
+}
+
+/* ---------------------------------------------------------------------
+ * Marcas
+ * ------------------------------------------------------------------- */
+#marcas {
+    background: #171719;border-top: 3px solid #28b8ff;
+}
+#marcas h2 {
+    font-weight: 700;color: #28b8ff;font-size: 32px;
+}
+#marcas .--p-1 {
+    font-size: 20px;color: #b5b5b5;line-height: 1.4;
+}
+
+/* ---------------------------------------------------------------------
+ * Marcas
+ * ------------------------------------------------------------------- */
+#contacto {
+    background: #131315;border-top: 3px solid #28b8ff;
+}
+#contacto h2 {
+    font-weight: 700;color: #28b8ff;font-size: 32px;
+}
+#contacto .--p-1 {
+    font-weight: 400;font-size: 17px;line-height: 1.5;color: #b5b5b5;
+}
+#contacto .feature-box {
+    color: inherit;
+}
+.list-group-number .list-group-item-action {
+    background: transparent;cursor: default;
+}
+.list-group-number span {
+    background: #252528;
+}
+.icon-primary i::before {
+  color: #28b8ff;
+}
+.feature-box .feature-box-title {
+  color: #e0e0e0;
+}
+
+/* ---------------------------------------------------------------------
+ * Formulario mobile
+ * ------------------------------------------------------------------- */
+#formulario-mobile {
+    background: #131315;
+}
+
+/* ---------------------------------------------------------------------
+ * Footer
+ * ------------------------------------------------------------------- */
+footer {
+    background-color: rgb(0, 0, 0);background-position: 0% 0%, 0% 0%, 0% 0%;background-position-y: 0%, 0%, 0%;background-attachment: scroll, scroll, scroll;background-image: linear-gradient(148.8deg, rgba(126, 126, 126, 0.8) 20.02%, rgba(17, 18, 18, 0.8) 82.31%), url('http://localhost/host/clientes/ronamontacargas.com/assets/img/0e9c70b0.png'), none;background-origin: padding-box, padding-box, padding-box;background-clip: border-box, border-box, border-box;background-blend-mode: overlay, normal, normal;background-repeat: no-repeat;background-size: cover;background-position-y: bottom;border-top: 3px solid #28b8ff;
+}
+
+.card-body.--pattern-overlay-1-05::before {
+  content: "";
+  background-image: url(http://localhost/host/clientes/locallity.com/assets/css/pattern-1.png);
+  background-position: center center;
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+
+@media (min-width: 768px){
+    .text-md-start {text-align: left !important;}
+}
+
+
+@media (min-width: 991px) and (max-width: 1199.9px){
+    .feature-box .feature-box-title {font-size: 20px;}
+}
+@media (min-width: 768px) and (max-width: 991.9px){
+
+}
+@media (max-width: 767.9px){
+    .navbar-brand .navbar-brand-item {height: 26px;}
+    #--top {background-position: center;}
+    #--top .--img-logo {height: 46px;}
+    #--top .--p-1 {font-size: 17px;color: #e4e4e4;}
+    #--top .btn-primary {padding: 8px 20px 9px;}
+    #nuestros-valores h2 {font-size: 28px;}
+    #nuestros-valores .--p-1 {font-size: 16px;}
+    #nuestros-valores .card .card-body h3 {font-size: 24px;}
+    #--que-hacemos h2 {font-size: 28px;}
+    #--que-hacemos p {font-size: 16px;}
+    #marcas h2 {font-size: 28px;}
+    #marcas .--p-1 {font-size: 16px;}
+    .white-form {padding: 44px 28px;}
+    .white-form .p-quiero-que-me-contacten {font-size: 25px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------
+Locallity
+------------------------------------------------ */
+body {
+    background: #fff;
+}
+.text-primary {
+  color: #28b8ff !important;
+}
+a {
+  color: #0f212e;
+}
+.min-h-100vh {
+    min-height: 100vh;
+}
+
+.bg-grad {
+  background: -moz-linear-gradient(150deg, #4ea5c7 0%, #49a5e4  100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #4ea5c7), color-stop(100%, #49a5e4 ));
+  background: -webkit-linear-gradient(150deg, #4ea5c7 0%, #49a5e4  100%);
+  background: -o-linear-gradient(150deg, #4ea5c7 0%, #49a5e4  100%);
+  background: -ms-linear-gradient(150deg, #4ea5c7 0%, #49a5e4  100%);
+  background: linear-gradient(150deg, #4ea5c7 0%, #49a5e4  100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-one', endColorstr='$color-two',GradientType=1 );
+}
+
+
+#--subcategorias {
+    background: #F5F5F6;
+}
+#--subcategorias .card-body {
+    border-radius: 10px;border: 0;
+}
+#--subcategorias .card-body img {
+    height: 70px;
+    width: 78px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem !important;
+}
+#--subcategorias .card-body h5 {
+    margin-bottom: 2px;
+}
+#--subcategorias .card-body span {
+    color: #041c28;
+}
+
+.divider-1 {
+  color: #8f9397;
+  width: 100%;
+  margin: 0px auto;
+  overflow: hidden;
+  text-align: center;
+  line-height: 2rem;
+}
+.divider-1::before {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  content: "";
+  display: inline-block;
+  height: 0em;
+  margin: 0 0 0 -100%;
+  vertical-align: middle;
+  width: 12px;
+}
+.divider-1::after {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  content: "";
+  display: inline-block;
+  height: 0;
+  margin: 0 0 0 -100%;
+  vertical-align: middle;
+  width: calc(100% - 12px);
+  margin: 0 -100% 0 0;
+}
+
+
+.--alerta-top-nav {
+    background: #28b8ff;
+}
+.--alerta-top-nav li {
+    padding: 6px 0;
+}
+.--alerta-top-nav li a {
+    color: #071d27;
+}
+
+#--top .--1-select {
+    margin-bottom: 6px;
+}
+#--top .--2-select {
+    border-left: 1px solid gray;
+    margin-bottom: 6px;
+}
+#--top .--select-1, #--top .--select-2 {
+    padding: 15px 14px 15px 16px;line-height: 1;color: #8d8d8d;width: 100%;border: 0;border-radius: 0;margin-bottom: 0;
+    color: #0f0f1e;
+    background: #eff3f6;
+}
+#--top .---div-1 i, #--top .---div-2 i {
+    color: #585858;font-size: 16px;position: absolute;right: 4px;top: 5px;pointer-events: none;background: #fff;padding: 6px;
+    background: #eff3f6;
+}
+#--top .--div-btn-buscar a {
+    margin-left: -13px;border-top-left-radius: 0;border-bottom-left-radius: 0;width: 54px;display: block;padding: 10px 8px 11px;
+}
+#--top .--div-btn-buscar {
+    margin-bottom: 6px;
+}
+#--top .--texto-debajo-de-buscador {
+    color: #eee;
+}
+
+#--3-items {
+    background: #28b8ff;
+    background: #041c28;
+}
+#--3-items img {
+    width: 64px;
+}
+#--3-items p {
+    color: #d5d5d5;font-size: 13px;
+}
+#--3-items a {
+    color: #49a5e4;
+}
+
+#--categorias {
+    background: #F5F5F6;
+}
+#--categorias h2 {
+    font-family: 'Inter', sans-serif;color: #041c28;font-weight: 900;margin-bottom: 8px;
+}
+#--categorias .--p-descripcion {
+    font-size: 15px;line-height: 22px;font-family: 'Inter', sans-serif;color: #000;
+}
+#--categorias .card-body {
+    border-radius: 10px;border: 0;
+}
+#--categorias .card-body img {
+    height: 70px;
+    width: 78px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem !important;
+}
+#--categorias .card-body h5 {
+    margin-bottom: 2px;
+}
+#--categorias .card-body span {
+    color: #041c28;
+}
+#--categorias .btn-ver-subcategorias {
+    color: #041c28;padding: 4px 0 0 0;
+}
+
+#sobre-nosotros h2 {
+    font-family: 'Inter', sans-serif;color: #041c28;font-weight: 900;margin-bottom: 12px;
+}
+#sobre-nosotros p {
+    font-family: 'Inter', sans-serif;color: #232428;font-weight: 400;font-size: 16px;line-height: 1.5;
+}
+#sobre-nosotros p.--p {
+    padding: 10px;border-left: 3px solid #49a5e4;background: #7dc8fb0d;
+}
+#sobre-nosotros p.--p span.--1 {
+    color: #49a5e4;font-weight: 500;
+}
+#sobre-nosotros p.--p span.--2 {
+    font-weight: 500;text-decoration: underline;text-decoration-style: dotted;
+}
+#sobre-nosotros img.--1 {
+    border-radius: 8px;height: 100%;object-fit: cover;object-position: center;
+}
+#sobre-nosotros img.--2 {
+    width: 100%;height: calc(50% - 6px);object-fit: cover;object-position: center;border-radius: 8px;
+}
+#sobre-nosotros .--div-3 {
+    max-height: 460px;display: flex;flex-direction: column;justify-content: space-between;
+}
+
+#ventaja-1 {
+    border-top: 1px solid #eee9;background: #fcfcfd;
+}
+#ventaja-1 .--logo-google-maps {
+    height: 36px;width: auto;
+}
+#ventaja-1 h2 {
+    font-family: 'Inter', sans-serif;color: #041c28;font-weight: 900;margin-bottom: 12px;
+}
+#ventaja-1 p {
+    font-family: 'Inter', sans-serif;color: #232428;font-weight: 400;font-size: 17px;line-height: 1.5;
+}
+
+#ventaja-2 {
+    background: #fcfcfd;
+}
+#ventaja-2 .--logo-whatsapp {
+    height: 36px;width: auto;
+}
+#ventaja-2 h2 {
+    font-family: 'Inter', sans-serif;color: #041c28;font-weight: 900;margin-bottom: 12px;
+}
+#ventaja-2 p {
+    font-family: 'Inter', sans-serif;color: #232428;font-weight: 400;font-size: 17px;line-height: 1.5;
+}
+
+#cta-completa-el-formulario {
+    background: #03151e;
+}
+#cta-completa-el-formulario .--div-1 {
+    justify-content: space-between;background: transparent;border-radius: 8px;padding: 36px 0;
+}
+
+#seguridad {
+    background: #041c28;background: #f5f5f6;
+}
+#seguridad h2 {
+    font-family: 'Inter', sans-serif;color: #fff;font-weight: 900;margin-bottom: 12px;color: #041c28;
+}
+#seguridad p {
+    font-family: 'Inter', sans-serif;color: #f4f4f4;font-weight: 400;font-size: 17px;line-height: 1.5;color: #232428;
+}
+#seguridad p a {
+    color: #28b8ff;font-weight: 500;
+}
+#seguridad ul {
+    list-style: disc;list-style-position: inside;padding-left: 12px;
+}
+#seguridad ul li {
+    font-family: 'Inter', sans-serif;color: #f0f0f0;font-weight: 400;font-size: 16px;line-height: 1.5;margin-bottom: 10px;color: #232428;
+}
+#seguridad img {
+    min-height: 500px;object-fit: cover;object-position: center;border-radius: 8px;
+}
+
+footer {
+    background: #03151e;border: none;
+    background: #fff;
+    color: #1d1e25;
+}
+footer .primary-hover a {
+    color: #1d1e25;
+}
+footer .primary-hover a:hover {
+    color: #4a4c58 !important;
+}
+.--top-subcategorias {
+    border-bottom: 2px solid #28b8ff;
+}
+.--top-subcategorias h1 {
+    font-family: 'Inter', sans-serif;color: #f6f6f6;font-weight: 900;margin-bottom: 8px;
+}
+
+
+#--negocio-top-bg {
+    height: 200px;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+#--negocio-top-bg .--layer {
+    height: 100%;position: absolute;width: 100%;background: #07071375;
+}
+
+#--negocio-logo-circle {
+    z-index: 99;
+    position: relative;
+}
+#--negocio-logo-circle figure {
+    position: absolute;
+    left: 12px;
+    bottom: -53px;
+    bottom: -70px;
+    width: 166px;
+    height: 166px;
+    border: 4px solid #f4f4f4;
+    border-radius: 50%;
+    transition: all .3s ease;
+    margin: 0;
+}
+#--negocio-logo-circle figure img {
+    border-radius: 50%;transform: scale(1.012);
+}
+
+#--negocio-contenido #--formulario {
+    position: relative;top: -20px;
+}
+#--negocio-contenido #--formulario .white-form .p-quiero-que-me-contacten {
+  color: #11162b;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#--negocio-contenido h4 {
+    font-size: 21px;font-weight: 600;
+}
+#--negocio-contenido .--p {
+    color: #7f8286;margin-bottom: 1.2rem;
+}
+
+#--negocio-contenido .--div-nombre-negocio-y-enlaces {
+    justify-content: space-between;align-items: center;border-bottom: 1px solid #ececec;
+    border-bottom: 1px solid #ececec78;
+}
+#--negocio-contenido .--div-nombre-negocio-y-enlaces div {
+    display: flex;align-items: center;
+}
+#--negocio-contenido .--enlaces {
+    display: flex;justify-content: end;padding: 12px 15px 12px 19px;
+}
+#--negocio-contenido .--enlaces .btn-1 {
+    background-color: #747474;
+    background-color: #0d6efd;
+    color: #fff;font-weight: 600;font-size: 14px;line-height: 10px;line-height: 1;
+    min-height: 30px;/*min-width: 115px;*/border-radius: 18px;padding: 8px 24px 8px;margin-right: 8px;position: relative;border: 0;margin-bottom: 0;
+    
+    background-color: #f5f5f6;
+    color: #051020;
+}
+#--negocio-contenido .--enlaces .btn-1:hover {
+    background-color: #e9e9ea;
+}
+#--negocio-contenido .--enlaces .btn-2 {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: #747474;
+    background-color: #0d6efd;
+    color: #fff;
+    text-align: center;
+    margin-right: 8px;
+    display: block;
+    
+    background-color: #f5f5f6;
+    color: #051020;
+}
+#--negocio-contenido .--enlaces .btn-2:last-child {
+    margin-right: 0;
+}
+#--negocio-contenido .--enlaces .btn-2:hover {
+    background-color: #e9e9ea;
+}
+#--negocio-contenido .--nombre-negocio {
+    font-size: 21px;line-height: 28px;color: #263238;font-weight: 700;
+}
+#--negocio-contenido .--check {
+    margin-left: 5px;
+}
+#--negocio-contenido .--check svg {
+    vertical-align: -2px;
+}
+
+#--negocio-contenido .--row-imagenes img {
+    height: 296px;object-fit: cover;object-position: center;border-radius: 4px;cursor: pointer;
+}
+
+#--negocio-contenido .--div-iframe-google-maps-y-btn-trayecto {
+    position: sticky;top: 0;
+}
+#--negocio-contenido .--iframe-google-maps {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    position: relative;
+    top: 0;
+    outline: 1px dashed orange;
+    outline-offset: 4px;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    filter: grayscale(1);
+}
+#--negocio-contenido .--iframe-google-maps:hover {
+    filter: grayscale(0);
+    transition: all .3s ease;
+}
+#--negocio-contenido .btn-trayecto {
+    font-weight: 500;
+    max-width: 244px;
+}
+#--negocio-contenido .btn-trayecto:hover {
+    color: #09314d;
+    background: #1385be0f;
+    border-radius: 8px;
+}
+
+#--negocio-contenido .--row-dia-de-la-semana {
+    margin-left: -7px;
+}
+#--negocio-contenido .--col-dia-de-la-semana {
+    width: calc(100% / 7);padding: 0px 7px;
+}
+#--negocio-contenido .--col-dia-de-la-semana .--div {
+    text-align: center;display: flex;flex-direction: column;background: #f5f5f6;color: #202020;
+    padding: 18px 0;border-radius: 4px;height: 118px;transform: scale(0.95);
+}
+#--negocio-contenido .--col-dia-de-la-semana .--div:hover {
+    transform: scale(0.95);cursor: default;
+}
+#--negocio-contenido .--col-dia-de-la-semana .--div.--active {
+    transform: scale(1);background: #0d6efd;color: #fff;
+}
+#--negocio-contenido .--col-dia-de-la-semana .--div.--dia-cerrado {
+    background: #fff7f7;
+}
+#--negocio-contenido .--col-dia-de-la-semana .--div .--horario {
+    font-size: 11px;font-weight: 500;
+}
+#--negocio-contenido .--col-dia-de-la-semana .--div .--dia.--cerrado {
+    color: #ca0202;
+}
+#--negocio-contenido .--col-dia-de-la-semana .--div .--horario.--cerrado {
+    color: #ca0202;text-transform: uppercase;
+}
+#--negocio-contenido .--col-dia-de-la-semana .--div .--dia {
+    font-size: 14px;font-weight: 600;margin-bottom: 18px;
+}
+
+
+
+.tns-nav {
+    display: none;
+}
+.tns-outer {
+    position: relative;
+}
+.tns-outer .tns-controls {
+    display: none;
+}
+.tns-outer:hover .tns-controls {
+    display: block;
+}
+.tns-controls {
+    position: relative;
+    z-index: 100;
+    height: 0;
+}
+.tns-controls button {
+    margin-bottom: 0;
+}
+.tns-controls button[data-controls="prev"] {
+    left: 12px;position: absolute;top: 7px;color: #343a40;border: 2px solid #f7f8f9;background-color: #f7f8f9;font-size: 18px;border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(55,73,87,.06),0 10px 20px rgba(55,73,87,.1);
+}
+.tns-controls button[data-controls="next"] {
+    right: 12px;position: absolute;top: 7px;color: #343a40;border: 2px solid #f7f8f9;background-color: #f7f8f9;font-size: 18px;border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(55,73,87,.06),0 10px 20px rgba(55,73,87,.1);
+}
+.tns-item:hover {
+    cursor: pointer;
+}
+#tns1 > .tns-item {
+  padding-right: 60px;
+}
+#tns1-iw {
+  margin: 0px -60px 0px 0px !important;
+}
+
+
+
+.--el-directorio-permite .--div-1 img {
+    width: 190px;
+}
+.--el-directorio-permite .--div-2 p {
+    font-size: 15px !important;
+}
+#sobre-nosotros .--img-right {
+    max-height: 372px;object-fit: cover;object-position: center;width: 100%;border-radius: 4px;
+}
+#sobre-nosotros .--directorio {
+    color: #28b8ff;font-weight: 500;
+}
+#sobre-nosotros .--negocios-locales, #sobre-nosotros .--nuestros-clientes {
+    text-decoration: 1px underline #201f1f;font-weight: 500;
+}
+
+.--ul-categorias {
+    min-width: 180px;
+    background: #f7f7f7;
+    padding: 10px 8px;
+    background: #283c4c;
+    background: #f1f9ff;
+}
+.--ul-categorias li {
+    display: block;
+    width: 100%;
+    padding: 6px 16px;
+    font-weight: 500;
+    color: #a8a8a8;
+    color: #2e6b94;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.--ul-categorias li:hover {
+    background: #f4f4f4;
+    color: #a2a2a2;
+    background-color: #d0e8ff;
+    color: #248cef;
+}
+.--ul-subcategorias {
+    min-width: 286px;padding: 10px 8px;
+}
+.--ul-subcategorias .--texto-header-subcategorias {
+    font-weight: 500;background: transparent !important;cursor: default;
+}
+.--ul-subcategorias .--elige-una-categoria {
+    padding: 6px 16px;
+    color: #46464d;
+    margin-bottom: 0;
+}
+.--ul-subcategorias li {
+    display: block;
+    width: 100%;
+    padding: 6px 16px;
+    font-weight: 400;
+    color: #a8a8a8;
+    color: #2e6b94;
+    color: #2e363e;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.--ul-subcategorias li:hover {
+    background-color: #f1f9ff;
+}
+.--ul-subcategorias li:hover a {
+    color: #1d6fbe;
+}
+.--li-menu-categorias .--mensaje-bottom {
+    justify-content: space-between;
+}
+.--li-menu-categorias a[data-toggle="dropdown"]::after {
+    content: none;
+}
+.--li-menu-categorias .dropdown-menu {
+    top: 10px !important;
+}
+
+#--header-xs .dropdown-menu {
+    background-color: transparent;
+}
+#--header-xs .dropdown-menu .dropdown-item {
+    padding-left: 18px;
+}
+#--header-xs .dropdown-menu .dropdown-item.--categoria {
+    background: #051d2e;
+    color: #0c6aad !important;
+
+    background: #051d2e91;
+    color: #1c8fe1 !important;
+    font-weight: 500;
+}
+#--header-xs .dropdown-toggle::after {
+  content: "\F140";
+  margin-left: 0.35rem;
+  border: none;
+  display: inline-block;
+  font: normal normal normal 24px/1 "Material Design Icons";
+  font-size: inherit;
+  text-rendering: auto;
+  line-height: inherit;
+}
+
+
+#--registra-tu-marca .--label {
+    text-align: left;
+    position: absolute;
+    font-size: 11px;
+    top: -8px;
+    padding: 0 7px 0 7px;
+    border-radius: 2px;
+    z-index: 9;
+    background: #fff;
+    color: #24262B;
+    left: 24px;
+}
+#--registra-tu-marca .form-control::placeholder {
+  color: #9a9ea3;
+  opacity: 1;
+  font-size: 13px;
+}
+#--registra-tu-marca .form-control {
+  border: 1px solid #e4e4e4;
+  height: 50px;
+  margin-bottom: 26px;
+}
+#--registra-tu-marca .form-control:hover {
+  border-color: #cecece;
+  box-shadow: inset 0px 0px 50px 0px rgba(220, 220, 220, 0.13) !important;
+}
+#--registra-tu-marca .form-control:focus {
+  color: #495057;
+  background-color: #ffffff;
+  border-color: #15b2ff;
+}
+#--registra-tu-marca .--check-radios {
+    position: relative;left: 15px;display: flex;width: calc(100% - 30px);
+}
+#--registra-tu-marca .--check-radios.--antiguedad .form-check {
+    width: 20%;
+}
+#--registra-tu-marca .--check-radios.--servicio-a-domicilio .form-check,
+ #--registra-tu-marca .--check-radios.--envios-nacionales .form-check,
+ #--registra-tu-marca .--check-radios.--facturacion .form-check,
+ #--registra-tu-marca .--check-radios.--tienda-fisica .form-check,
+ #--registra-tu-marca .--check-radios.--tienda-online .form-check,
+ #--registra-tu-marca .--check-radios.--codigo-de-descuento .form-check {
+    width: 66px;
+}
+#--registra-tu-marca .--btn-atras, #--registra-tu-marca .--btn-siguiente {
+    font-size: 13px;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #258bf8;
+  border-color: #258bf8;
+  background-color: #258bf8;
+}
+#--registra-tu-marca label.form-label {color: #343a40;}
+
+
+/* ---------------------- */
+.--bg-celeste-formulario {background:#FDFEFE}
+.--bg-celeste-formulario h5, .--bg-celeste-formulario .h5 {color: #0a0a60;}
+.--bg-celeste-formulario #--registra-tu-marca label.form-label {color: #0a0a60;background: #FDFEFE;}
+.--bg-celeste-formulario label.form-check-label {color: #0a0a60e3;}
+.--bg-celeste-formulario p {color: #0a0a60d1;}
+.--bg-celeste-formulario #--registra-tu-marca .form-control {border: 1px solid #0a0a60;background: #FDFEFE;color: #0a0a60;}
+.--bg-celeste-formulario #--registra-tu-marca .form-control:hover {border-color: inherit;}
+.--bg-celeste-formulario #--registra-tu-marca .form-control:focus {color: #0a0a60;background-color: #FDFEFE;border-color: #0a0a60;}
+.--bg-celeste-formulario #--registra-tu-marca .form-control::placeholder {color: #2954887d;}
+.--bg-celeste-formulario .text-dark {color: #0a0a60 !important;}
+.--bg-celeste-formulario .btn-dark {color: #fff;background-color: #0a0a60;border-color: #0a0a60;}
+.--bg-celeste-formulario .btn-light {color: #0a0a60;background-color: #f7f8f938;border-color: #f7f8f921;}
+.--bg-celeste-formulario .custom-control-label::before {background-color: rgb(227, 246, 255);}
+.--bg-celeste-formulario .custom-control-label {color: #0a0a60;}
+
+.td-input {
+  cursor: pointer;
+  background-color: transparent !important;
+}
+
+.timeDropperLocallity {
+    --td-textColor: #555555;
+    --td-backgroundColor: #FFF;
+    --td-primaryColor: #258bf8;
+    --td-displayBackgroundColor: #FFF;
+    --td-displayBorderColor: #258bf850;
+    --td-displayBorderStyle: solid;
+    --td-displayBorderWidth: 4px;
+    --td-handsColor: #258bf850;
+    --td-handleColor: #258bf8;
+    --td-handlePointColor: #fff;
+}
+
+
+@media (min-width: 1200px){
+    #--top .row {left: 6px;position: relative;}
+}
+@media (min-width: 991px) and (max-width: 1199.9px){
+    #sobre-nosotros .--div-3 {max-height: 100%;}
+    #--negocio-contenido .--row-dia-de-la-semana {margin-left: -2px;}
+    #--negocio-contenido .--col-dia-de-la-semana {padding: 0px 7px 0 0;}
+    #--top .row {left: 6px;position: relative;}
+    .--li-menu-categorias .dropdown-menu {left: -50px !important;}
+}
+@media (min-width: 768px) and (max-width: 991.9px){
+    .profile-panel__inner-panel .profile-avatar {left: 28px;bottom: 10px;}
+    #--negocio-contenido .--col-dia-de-la-semana {min-width: 107px;width: 107px;padding: 0 4px 0 0;}
+    #--negocio-contenido .--row-dia-de-la-semana {display: flex;overflow-x: auto;width: auto;flex-wrap: unset;scrollbar-width: none;margin-left: 0px;}
+    #--negocio-contenido .--row-imagenes.--2 {display: flex;overflow-x: auto;width: auto;flex-wrap: unset;scrollbar-width: none;margin-left: 0px;}
+    #--negocio-contenido .--row-imagenes.--2 div {padding: 0 12px 0 0;max-width: 220px;}
+    #--negocio-contenido .--row-imagenes.--2 img {width: auto;height: 320px;}
+    #--negocio-contenido .--iframe-google-maps {max-width: 100%;max-height: 270px;}
+    #--top .row {left: 6px;position: relative;}
+}
+@media (min-width: 576px) and (max-width: 767.9px){
+    #ventaja-2 .--div-1 {order: 2}
+    #--categorias .card-body {padding: 14px !important;}
+    #--categorias .card-body img {height: 56px;width: 52px;}
+    #--categorias .card-body h5 {font-size: 16px;}
+    #--categorias .card-body span {font-size: 13px;}
+    #--subcategorias .card-body h5 {font-size: 17px;}
+    #--negocio-top-bg {height: 150px;}
+    #--negocio-contenido .--col-dia-de-la-semana {min-width: 107px;width: 107px;padding: 0 4px 0 0;}
+    #--negocio-contenido .--row-dia-de-la-semana {display: flex;overflow-x: auto;width: auto;flex-wrap: unset;scrollbar-width: none;margin-left: 0px;}
+    #--negocio-contenido .--row-imagenes.--2 {display: flex;overflow-x: auto;width: auto;flex-wrap: unset;scrollbar-width: none;margin-left: 0px;}
+    #--negocio-contenido .--row-imagenes.--2 div {padding: 0 12px 0 0;max-width: 180px;}
+    #--negocio-contenido .--row-imagenes.--2 img {width: auto;height: 280px;}
+    #--negocio-contenido .--iframe-google-maps {max-width: 100%;max-height: 270px;}
+    #--top .row {left: 3px;position: relative;}
+    #--registra-tu-marca .--check-radios.--antiguedad .form-check {width: 25%;}
+    #--registra-tu-marca .--check-radios.--servicio-a-domicilio .form-check,
+     #--registra-tu-marca .--check-radios.--envios-nacionales .form-check,
+     #--registra-tu-marca .--check-radios.--facturacion .form-check,
+     #--registra-tu-marca .--check-radios.--tienda-fisica .form-check,
+     #--registra-tu-marca .--check-radios.--tienda-online .form-check,
+     #--registra-tu-marca .--check-radios.--codigo-de-descuento .form-check {width: 62px;}
+}
+@media (max-width: 575.9px){
+    #--top .--select-1, #--top .--select-2 {padding: 14px 14px 14px 16px;}
+    #--top .--2-select {border-left: 0;margin-bottom: 0;padding-right: 0;}
+    #--top .--div-btn-buscar {padding-left: 6px;}
+    #--top .--div-btn-buscar a {margin-left: 0;width: 100%;padding: 9px 4px 10px;}
+    #--3-items img {width: 44px;}
+    #--categorias .card-body img {height: 54px;width: 54px;}
+    #--categorias .card-body h5 {font-size: 16px;}
+    #--categorias .card-body span {font-size: 12px;}
+    #ventaja-2 .--div-1 {order: 2}
+    #seguridad img {min-height: 296px;}
+    #--negocio-top-bg {height: 150px;}
+    #--negocio-logo-circle figure {left: 14px;width: 84px;height: 84px;top: -44px;}
+    #--negocio-contenido .--enlaces {padding-right: 0;}
+    #--negocio-contenido .--col-dia-de-la-semana {min-width: 107px;width: 107px;padding: 0 4px 0 0;}
+    #--negocio-contenido .--row-dia-de-la-semana {display: flex;overflow-x: auto;width: auto;flex-wrap: unset;scrollbar-width: none;margin-left: 0px;}
+    #--negocio-contenido .--row-imagenes.--2 {display: flex;overflow-x: auto;width: auto;flex-wrap: unset;scrollbar-width: none;margin-left: 0px;}
+    #--negocio-contenido .--row-imagenes.--2 div {padding: 0 12px 0 0;max-width: 160px;}
+    #--negocio-contenido .--row-imagenes.--2 img {width: auto;height: 240px;}
+    #--negocio-contenido .--iframe-google-maps {max-width: 100%;max-height: 270px;}
+    #--registra-tu-marca .--check-radios.--antiguedad .form-check {width: 33.3%;}
+    #--registra-tu-marca .--check-radios.--servicio-a-domicilio .form-check,
+     #--registra-tu-marca .--check-radios.--envios-nacionales .form-check,
+     #--registra-tu-marca .--check-radios.--facturacion .form-check,
+     #--registra-tu-marca .--check-radios.--tienda-fisica .form-check,
+     #--registra-tu-marca .--check-radios.--tienda-online .form-check,
+     #--registra-tu-marca .--check-radios.--codigo-de-descuento .form-check {width: 62px;}
+}
