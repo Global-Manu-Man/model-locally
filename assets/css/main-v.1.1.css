@@ -15,6 +15,18 @@ ul, ol {list-style: none}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Inter', sans-serif;
 }
+.justify-content-space-between {
+    justify-content: space-between;
+}
+.border-bottom-gray {
+    border-bottom: 1px solid gainsboro;
+}
+.no-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
 .nav-mainmenu-a {
     color: white;
     font-size: 15px;
@@ -712,8 +724,22 @@ footer .primary-hover a:hover {
     height: 296px;object-fit: cover;object-position: center;border-radius: 4px;cursor: pointer;
 }
 
+#--negocio-contenido .--div-codigo-promocional {
+    
+}
+#--negocio-contenido .--div-codigo-promocional .--1 {
+    max-width: 350px;margin: 0 auto 0 auto;background: #f5f5f6;border: 1px solid gainsboro;color: #031c41;
+}
+#--negocio-contenido .--div-codigo-promocional .--1:hover {
+  background: #0d6efd0d;
+  border-color: #0d6efd85;
+}
+#--negocio-contenido .--div-codigo-promocional .--1:focus {
+  background: #0d6efd0d;
+  border-color: #0d6efd85;
+}
 #--negocio-contenido .--div-iframe-google-maps-y-btn-trayecto {
-    position: sticky;top: 0;
+    /* position: sticky;top: 0; */
 }
 #--negocio-contenido .--iframe-google-maps {
     width: 100%;
@@ -773,6 +799,10 @@ footer .primary-hover a:hover {
 }
 #--negocio-contenido .--col-dia-de-la-semana .--div .--dia {
     font-size: 14px;font-weight: 600;margin-bottom: 18px;
+}
+
+#--negocio-contenido .--info-general-y-enlaces svg {
+    height: 30px;color: #0b0d29;position: relative;top: 4px;
 }
 
 
@@ -926,6 +956,9 @@ footer .primary-hover a:hover {
 }
 
 
+#--registra-tu-marca .--texto-principal h2 {
+    font-family: 'Inter', sans-serif;color: #041c28;font-weight: 900;
+}
 #--registra-tu-marca .--label {
     text-align: left;
     position: absolute;
@@ -983,14 +1016,14 @@ footer .primary-hover a:hover {
 
 
 /* ---------------------- */
-.--bg-celeste-formulario {background:#FDFEFE}
+.--bg-celeste-formulario {background: #88d2ef;}
 .--bg-celeste-formulario h5, .--bg-celeste-formulario .h5 {color: #0a0a60;}
-.--bg-celeste-formulario #--registra-tu-marca label.form-label {color: #0a0a60;background: #FDFEFE;}
+.--bg-celeste-formulario #--registra-tu-marca label.form-label {color: #0a0a60;background: #88d2ef;}
 .--bg-celeste-formulario label.form-check-label {color: #0a0a60e3;}
 .--bg-celeste-formulario p {color: #0a0a60d1;}
-.--bg-celeste-formulario #--registra-tu-marca .form-control {border: 1px solid #0a0a60;background: #FDFEFE;color: #0a0a60;}
+.--bg-celeste-formulario #--registra-tu-marca .form-control {border: 1px solid #0a0a60;background: #88d2ef;color: #0a0a60;}
 .--bg-celeste-formulario #--registra-tu-marca .form-control:hover {border-color: inherit;}
-.--bg-celeste-formulario #--registra-tu-marca .form-control:focus {color: #0a0a60;background-color: #FDFEFE;border-color: #0a0a60;}
+.--bg-celeste-formulario #--registra-tu-marca .form-control:focus {color: #0a0a60;background-color: #9ee5ff;border-color: #0a0a60;}
 .--bg-celeste-formulario #--registra-tu-marca .form-control::placeholder {color: #2954887d;}
 .--bg-celeste-formulario .text-dark {color: #0a0a60 !important;}
 .--bg-celeste-formulario .btn-dark {color: #fff;background-color: #0a0a60;border-color: #0a0a60;}
@@ -1016,9 +1049,150 @@ footer .primary-hover a:hover {
     --td-handlePointColor: #fff;
 }
 
+/* ---------------------------------------------------- */
+#--resultados-de-busqueda #--header-lg {
+    background: #fff;
+}
+#--resultados-de-busqueda #--header-lg .nav-mainmenu-a {
+  color: #0e1427;
+}
+#--resultados-de-busqueda #--header-xs .navbar-expand-lg {
+  background: #fff;
+}
+#--resultados-de-busqueda #--header-xs .navbar-toggler-icon {
+  filter: invert(1);
+}
+.--resultados-de-busqueda .form-control {
+  border: 1px solid #dfe2e5;
+}
+.--resultados-de-busqueda .btn-filtros {
+    background: #f8f8f8;
+    border: 1px solid #ececec;
+    padding: 0;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.--resultados-de-busqueda {
+    color: #454545;
+    padding-bottom: 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.--resultados-de-busqueda h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin: 12px 0 14px 0;
+    font-size: 16px;
+}
+.--resultados-de-busqueda a.accordion-button {
+  font-size: 15px;
+  color: #2b2b2b;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+  display: flex;
+  padding: 14px 0;
+}
+.--resultados-de-busqueda .accordion-button::after {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23262626'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  transition: transform .2s ease-in-out;
+}
+.--resultados-de-busqueda .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23262626'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  transform: rotate(-180deg);
+}
+.--resultados-de-busqueda #--valoraciones i {
+  color: #49a5e4;
+}
+.--resultados-de-busqueda .--col-card a {
+  background: transparent;
+  border: none;
+}
+.--resultados-de-busqueda .--col-card img.--1 {
+  border-radius: 4px;
+
+  /* min-height: 178px;
+    object-fit: cover;
+    object-position: center; */
+}
+.--resultados-de-busqueda .--col-card img.--2 {
+  position: absolute;
+    width: 58px;
+    right: 6px;
+    bottom: -7px;
+    border: 1px solid #f4f4f4;
+
+  /* position: absolute;
+  width: 64px;
+  left: 6px;
+  bottom: -25px;
+  border: 1px solid #e3e3e3; */
+}
+.--resultados-de-busqueda .--col-card h4 {
+  line-height: 1.4;
+  font-size: 14px;
+  color: #454545;
+}
+.--resultados-de-busqueda .--div-buscador a {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  padding: 6px 12px 0 12px;
+  border-top: 2px solid transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #8f9397;
+  cursor: pointer;
+  height: 100%;
+}
+.--resultados-de-busqueda .--horario {
+    font-size: 13px;color: #0f212e;
+}
+.--resultados-de-busqueda .--direccion {
+    font-size: 13px;color: #0f212e;
+}
+.--resultados-de-busqueda .--logo-anunciante {
+    width: 64px;border-radius: 4px;
+}
+.--resultados-de-busqueda .form-check-label {
+    width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.--resultados-de-busqueda .page-item.active .page-link {
+  background-color: #49a5e4;
+  border-color: transparent;
+}
+.--resultados-de-busqueda .page-link:hover {
+  color: #49a5e4;
+}
+.--resultados-de-busqueda {
+    min-height: calc(100vh - 55px);
+}
+
+#accordionHorarios {
+    max-width: 350px;
+}
+
+
 
 @media (min-width: 1200px){
     #--top .row {left: 6px;position: relative;}
+    .col-xl-2 {flex: 0 0 246px;max-width: 246px;}
+    .--resultados-de-busqueda .col--1 {flex: 0 0 246px;max-width: 246px;}
+    .--resultados-de-busqueda .col--2 {flex: 0 0 100%;max-width: calc(100% - 246px);}
+    .--resultados-de-busqueda h3 {margin: 6px 0 14px 0;}
 }
 @media (min-width: 991px) and (max-width: 1199.9px){
     #sobre-nosotros .--div-3 {max-height: 100%;}
@@ -1087,4 +1261,33 @@ footer .primary-hover a:hover {
      #--registra-tu-marca .--check-radios.--tienda-fisica .form-check,
      #--registra-tu-marca .--check-radios.--tienda-online .form-check,
      #--registra-tu-marca .--check-radios.--codigo-de-descuento .form-check {width: 62px;}
+    .--resultados-de-busqueda .col--1 {position: sticky;top: 0;background: #fff;z-index: 9;padding-top: 8px;padding-bottom: 8px;}
+    .--resultados-de-busqueda .--col-card h4 {font-size: 13px;line-height: 1.4;margin-bottom: 3px !important;}
+    .--resultados-de-busqueda .--direccion {font-size: 12px;line-height: 1.4;}
 }
+
+
+
+
+
+/* #--registra-tu-marca .--texto-principal h2 {
+    color: #fff;
+}
+.--bg-celeste-formulario p {
+  color: #ffffffd1;
+}
+.--bg-celeste-formulario h5, .--bg-celeste-formulario .h5 {
+  color: #fff;
+}
+.--bg-celeste-formulario #--registra-tu-marca label.form-label {
+  color: #fff;
+}
+.--bg-celeste-formulario #--registra-tu-marca .form-control {
+  color: #fff;
+}
+.--bg-celeste-formulario label.form-check-label {
+  color: #ffffffe3;
+}
+.--bg-celeste-formulario .text-dark {
+  color: #fff !important;
+} */

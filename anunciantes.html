@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+        <meta name="theme-color" content="#49a5e4" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="#49a5e4" />
+
+        <title>Locallity</title>
+        <meta name="description" content="..." />
+
+        <meta name="robots" content="noindex">
+
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+
+        <link rel="icon" href="http://127.0.0.1/locallity/favicon.ico" type="image/png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="http://127.0.0.1/locallity/assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="http://127.0.0.1/locallity/assets/css/color.primary.css" />
+        <link rel="stylesheet" type="text/css" href="http://127.0.0.1/locallity/assets/css/main-v.1.1.css" />
+
+        <link rel="stylesheet" type="text/css" href="http://127.0.0.1/locallity/assets/vendor/fancybox/css/jquery.fancybox.min.css" />
+
+        <link rel="stylesheet" href="http://127.0.0.1/locallity/assets/fonts/material-design/css/materialdesignicons.min.css" />
+
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+        <!-- https://ganlanyuan.github.io/tiny-slider/ -->
+    </head>
+
+<body>
+<main id="--resultados-de-busqueda">
+
+    <div id="--header-lg" class="container-fluid d-none d-lg-block   position-absolute">
+    <div class="container">
+        <header class="row d-none d-md-flex">
+            <div class="col-12 d-flex align-items-center">
+                <div>
+                    <a href="http://127.0.0.1/locallity/">
+                        <img class="logo" src="http://127.0.0.1/locallity/assets/_img/locallity-logo-full.svg">
+                    </a>
+                </div>
+                <div class="mr-auto ml-3">
+                    <nav>
+                        <ul class="d-flex justify-content-center">
+                            <li><a href="http://127.0.0.1/locallity/" class="nav-mainmenu-a">Inicio</a></li>
+                            <li><a href="http://127.0.0.1/locallity/#sobre-nosotros" class="scroll nav-mainmenu-a">Nosotros</a></li>
+                            <li><a href="http://127.0.0.1/locallity/#seguridad" class="scroll nav-mainmenu-a">Seguridad</a></li>
+                            <li><a href="http://127.0.0.1/locallity/mapa.php" class="scroll nav-mainmenu-a">Mapa</a></li>
+
+                            <li class="nav-item dropdown  --li-menu-categorias">
+                                <a href="javascript: void(0);" class="nav-mainmenu-a dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                    Categorías
+                                </a>
+                                <div class="dropdown-menu p-0" aria-labelledby="--menu-categorias">
+                                    <div class="d-block d-sm-flex">
+                                        <ul class="--ul-categorias">
+                                            <li class="--comida">Comida</li>
+                                            <li class="--infantil-bebe">Infantil&nbsp;/&nbsp;Bebés</li>
+                                            <li class="--hogar">Hogar</li>
+                                            <li class="--papeleria">Papelería</li>
+                                            <li class="--eventos">Eventos</li>
+                                            <li class="--bienestar">Bienestar</li>
+                                            <li class="--regalos">Regalos</li>
+                                            <li class="--shopping">Shopping</li>
+                                        </ul>
+                                        <ul class="--ul-subcategorias">
+                                            <li class="--texto-header-subcategorias">Subcategorías</li>
+                                            <hr class="mt-1 mb-2">
+
+                                            <div>
+                                                <p class="--elige-una-categoria">Elige una categoría para desplegar sus respectivas subcategorías.</p>
+                                            </div>
+
+                                            <div class="d-none  ---comida">
+                                                <li> <a href="#">Pasteles</a> </li>
+                                                <li> <a href="#">Botanas</a> </li>
+                                                <li> <a href="#">Catering</a> </li>
+                                                <li> <a href="#">Panadería</a> </li>
+                                            </div>
+
+                                            <div class="d-none  ---infantil-bebe">
+                                                <li> <a href="#">Muebles</a> </li>
+                                                <li> <a href="#">Accesorios</a> </li>
+                                                <li> <a href="#">Letreros&nbsp;de&nbsp;Maternidad</a> </li>
+                                                <li> <a href="#">Rentas</a> </li>
+                                                <li> <a href="#">Clases</a> </li>
+                                            </div>
+
+                                            <div class="d-none  ---hogar">
+                                                <li> <a href="#">Muebles</a> </li>
+                                                <li> <a href="#">Fragancias</a> </li>
+                                                <li> <a href="#">Decoración</a> </li>
+                                                <li> <a href="#">Cocinas&nbsp;/&nbsp;Exterior</a> </li>
+                                                <li> <a href="#">Diseño&nbsp;de&nbsp;Interiores</a> </li>
+                                                <li> <a href="#">Concept&nbsp;Store</a> </li>
+                                            </div>
+
+                                            <div class="d-none  ---papeleria">
+                                                <li> <a href="#">Social</a> </li>
+                                                <li> <a href="#">Impresiones</a> </li>
+                                            </div>
+
+                                            <div class="d-none  ---eventos">
+                                                <li> <a href="#">SPA</a> </li>
+                                                <li> <a href="#">Aesthetic</a> </li>
+                                                <li> <a href="#">Masajes</a> </li>
+                                                <li> <a href="#">Uñas</a> </li>
+                                                <li> <a href="#">Salón&nbsp;de&nbsp;belleza</a> </li>
+                                            </div>
+
+                                            <div class="d-none  ---bienestar">
+                                                <li> <a href="#">Decoración</a> </li>
+                                                <li> <a href="#">Caterings</a> </li>
+                                                <li> <a href="#">Renta&nbsp;de&nbsp;mobiliario</a> </li>
+                                                <li> <a href="#">Invitaciones</a> </li>
+                                                <li> <a href="#">Shows</a> </li>
+                                            </div>
+
+                                            <div class="d-none  ---regalos">
+                                                <li> <a href="#">Fragancias</a> </li>
+                                                <li> <a href="#">Florerías</a> </li>
+                                                <li> <a href="#">Mesas&nbsp;de&nbsp;regalo</a> </li>
+                                                <li> <a href="#">Regalos&nbsp;Generales</a> </li>
+                                                <li> <a href="#">Concept&nbsp;Store</a> </li>
+                                            </div>
+
+                                            <div class="d-none  ---shopping">
+                                                <li> <a href="#">Zapatos</a> </li>
+                                                <li> <a href="#">Ropa&nbsp;/&nbsp;Vestidos</a> </li>
+                                                <li> <a href="#">Trajes&nbsp;de&nbsp;baño</a> </li>
+                                                <li> <a href="#">Accesorios</a> </li>
+                                                <li> <a href="#">Cosméticos</a> </li>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="--mensaje-bottom  w-100 bg-grad pattern-overlay-2 p-4 all-text-white d-none d-lg-flex">
+                                        <div class="align-self-center me-4">
+                                            <h4 class="mb-0">¡Date a conocer!</h4>
+                                            <p class="mb-0 small">Anuncia tu negocio en Locallity.com</p>
+                                        </div>
+                                        <a href="http://127.0.0.1/locallity/registra-tu-marca.php" target="_blank" class="btn btn-outline-white btn-sm mb-0 align-self-center ms-auto">Registrarme</a>
+                                    </div>
+                                </div>
+                            </li>
+                            
+
+                             
+                            
+                        </ul>
+                    </nav>
+                </div>
+                <div class="ml-auto">
+                    <nav>
+                        <ul class="d-flex justify-content-center">
+                                                        <li><a href="http://127.0.0.1/locallity/registra-tu-marca.php" class="nav-mainmenu-a">Registra&nbsp;tu&nbsp;marca</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+</div>
+
+<header id="--header-xs" class="navbar-transparent navbar-light  d-lg-none">
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand" href="http://127.0.0.1/locallity/">
+                <img class="navbar-brand-item" src="http://127.0.0.1/locallity/assets/_img/locallity-logo-full.svg">
+            </a>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown" style="margin-top: 12px;">
+						<a class="nav-link dropdown-toggle --menu-transparent" href="javascript: void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorías</a>
+						<ul class="dropdown-menu" aria-labelledby="_">
+							<li><a class="dropdown-item mt-2 --categoria" href="#">Comida</a></li>
+                            <li><a class="dropdown-item" href="#">Pasteles</a></li>
+                            <li><a class="dropdown-item" href="#">Botanas</a></li>
+                            <li><a class="dropdown-item" href="#">Catering</a></li>
+                            <li><a class="dropdown-item" href="#">Panadería</a></li>
+
+                            <li><a class="dropdown-item mt-2 --categoria" href="#">Infantil&nbsp;/&nbsp;Bebé</a></li>
+                            <li><a class="dropdown-item" href="#">Muebles</a></li>
+                            <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                            <li><a class="dropdown-item" href="#">Letreros&nbsp;de&nbsp;Maternidad</a></li>
+                            <li><a class="dropdown-item" href="#">Rentas</a></li>
+                            <li><a class="dropdown-item" href="#">Clases</a></li>
+
+                            <li><a class="dropdown-item mt-2 --categoria" href="#">Hogar</a></li>
+                            <li><a class="dropdown-item" href="#">Muebles</a></li>
+                            <li><a class="dropdown-item" href="#">Fragancias</a></li>
+                            <li><a class="dropdown-item" href="#">Decoración</a></li>
+                            <li><a class="dropdown-item" href="#">Cocinas&nbsp;/&nbsp;Exterior</a></li>
+                            <li><a class="dropdown-item" href="#">Diseño&nbsp;de&nbsp;Interiores</a></li>
+                            <li><a class="dropdown-item" href="#">Concept&nbsp;Store</a></li>
+
+                            <li><a class="dropdown-item mt-2 --categoria" href="#">Papelería</a></li>
+                            <li><a class="dropdown-item" href="#">Social</a></li>
+                            <li><a class="dropdown-item" href="#">Impresiones</a></li>
+
+                            <li><a class="dropdown-item mt-2 --categoria" href="#">Eventos</a></li>
+                            <li><a class="dropdown-item" href="#">SPA</a></li>
+                            <li><a class="dropdown-item" href="#">Aesthetic</a></li>
+                            <li><a class="dropdown-item" href="#">Masajes</a></li>
+                            <li><a class="dropdown-item" href="#">Uñas</a></li>
+                            <li><a class="dropdown-item" href="#">Salón&nbsp;de&nbsp;belleza</a></li>
+
+                            <li><a class="dropdown-item mt-2 --categoria" href="#">Bienestar</a></li>
+                            <li><a class="dropdown-item" href="#">Decoración</a></li>
+                            <li><a class="dropdown-item" href="#">Caterings</a></li>
+                            <li><a class="dropdown-item" href="#">Renta&nbsp;de&nbsp;mobiliario</a></li>
+                            <li><a class="dropdown-item" href="#">Invitaciones</a></li>
+                            <li><a class="dropdown-item" href="#">Shows</a></li>
+
+                            <li><a class="dropdown-item mt-2 --categoria" href="#">Regalos</a></li>
+                            <li><a class="dropdown-item" href="#">Fragancias</a></li>
+                            <li><a class="dropdown-item" href="#">Florerías</a></li>
+                            <li><a class="dropdown-item" href="#">Mesas&nbsp;de&nbsp;regalo</a></li>
+                            <li><a class="dropdown-item" href="#">Regalos&nbsp;Generales</a></li>
+                            <li><a class="dropdown-item" href="#">Concept&nbsp;Store</a></li>
+
+                            <li><a class="dropdown-item mt-2 --categoria" href="#">Shopping</a></li>
+                            <li><a class="dropdown-item" href="#">Zapatos</a></li>
+                            <li><a class="dropdown-item" href="#">Ropa&nbsp;/&nbsp;Vestidos</a></li>
+                            <li><a class="dropdown-item" href="#">Trajes&nbsp;de&nbsp;baño</a></li>
+                            <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                            <li><a class="dropdown-item" href="#">Cosméticos</a></li>
+
+						</ul>
+					</li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="http://127.0.0.1/locallity/#sobre-nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="http://127.0.0.1/locallity/#seguridad">Seguridad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1/locallity/mapa.php">Mapa</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-link" href="http://127.0.0.1/locallity/registra-tu-marca.php">Registra&nbsp;tu&nbsp;marca</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+</header>
+        <section class="--resultados-de-busqueda">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-12 col-lg-3 col-xl-3  col--1">
+                    
+                    <div class="d-flex position-relative --div-buscador">
+                        <div class="btn btn-filtros --filtros mr-2 mb-0 d-lg-none" status="close">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-filter-left" viewBox="0 0 16 16" style="height: 20px;" fill="#0f1330">
+                                <path d="M2 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"></path>
+                            </svg>
+                        </div>
+                        <input type="text" placeholder="Busca por nombre" class="mb-0 form-control">
+                        <a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="--acordion-filtros-anunciantes mt-3 mb-3 d-none d-lg-block">
+
+                        <div>
+                            <div class="accordion mb-0">
+                                <div class="accordion-item">
+                                    <h5 class="accordion-header">
+                                        <a class="accordion-button" type="button" data-toggle="collapse" data-target="#--anunciantes-categoria" aria-expanded="true" aria-controls="--anunciantes-categoria">
+                                        Categoría
+                                        </a>
+                                    </h5>
+                                    <div id="--anunciantes-categoria" class="accordion-collapse collapse show">
+                                        <div class="accordion-body">
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-papeleria">
+                                                <label class="form-check-label" for="check-papeleria">Papelería</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-eventos">
+                                                <label class="form-check-label" for="check-eventos">Eventos</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-regalos">
+                                                <label class="form-check-label" for="check-regalos">Regalos</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-bienestar">
+                                                <label class="form-check-label" for="check-bienestar">Bienestar</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-hogar">
+                                                <label class="form-check-label" for="check-hogar">Hogar</label>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="accordion mb-0">
+                                <div class="accordion-item">
+                                    <h5 class="accordion-header">
+                                        <a class="accordion-button" type="button" data-toggle="collapse" data-target="#--anunciantes-subcategoria" aria-expanded="true" aria-controls="--anunciantes-subcategoria">
+                                        Subcategoría
+                                        </a>
+                                    </h5>
+                                    <div id="--anunciantes-subcategoria" class="accordion-collapse collapse show">
+                                        <div class="accordion-body">
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-muebles">
+                                                <label class="form-check-label no" for="check-muebles">Muebles</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-fragancias">
+                                                <label class="form-check-label" for="check-fragancias">Fragancias</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-decoracion-general">
+                                                <label class="form-check-label" for="check-decoracion-general">Decoración General</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-cocina">
+                                                <label class="form-check-label" for="check-cocina">Cocina</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-mudanza">
+                                                <label class="form-check-label" for="check-mudanza">Mudanza</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-exterior">
+                                                <label class="form-check-label" for="check-exterior">Exterior</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-casa-inteligente">
+                                                <label class="form-check-label" for="check-casa-inteligente">Casa Inteligente</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-diseno-de-interiores">
+                                                <label class="form-check-label" for="check-diseno-de-interiores">Diseño de Interiores</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="accordion mb-0">
+                                <div class="accordion-item">
+                                    <h5 class="accordion-header">
+                                        <a class="accordion-button" type="button" data-toggle="collapse" data-target="#--anunciantes-mas-filtros" aria-expanded="true" aria-controls="--anunciantes-mas-filtros">
+                                        Otros filtros
+                                        </a>
+                                    </h5>
+                                    <div id="--anunciantes-mas-filtros" class="accordion-collapse collapse show">
+                                        <div class="accordion-body">
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-facturacion">
+                                                <label class="form-check-label" for="check-facturacion">Facturacion</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-tienda-fisica">
+                                                <label class="form-check-label" for="check-tienda-fisica">Tienda Física</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-tienda-online">
+                                                <label class="form-check-label" for="check-tienda-online">Tienda Online</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-envios-nacionales">
+                                                <label class="form-check-label" for="check-envios-nacionales">Envíos nacionales</label>
+                                            </div>
+                                            <div class="form-check mb-1">
+                                                <input type="checkbox" class="form-check-input" id="check-negocio-verificado">
+                                                <label class="form-check-label" for="check-negocio-verificado">Negocio verificado</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                                                
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-9 col-xl-9  col--2">
+
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h3>57 anunciantes</h3>
+                        </div>
+
+                                                <div class="col-6 col-sm-4 col-xl-3 px-2 px-sm-2  mb-3  --col-card">
+                            <a href="http://127.0.0.1/locallity/negocio.php" class="card">
+                                <div class="position-relative">
+                                    <img src="http://127.0.0.1/locallity/assets/_img/logo-4-01.jpg" alt="" class="--1"/>
+                                </div>
+
+                                <div class="card-body px-0 pt-2 pb-0">
+                                    <div class="text-center">
+                                        <h4 class="mb-0">Resto Bar Sophisticate</h4>
+                                        <p class="mb-0 --direccion">San Pedro Garza García, Nuevo León</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                                                <div class="col-6 col-sm-4 col-xl-3 px-2 px-sm-2  mb-3  --col-card">
+                            <a href="http://127.0.0.1/locallity/negocio.php" class="card">
+                                <div class="position-relative">
+                                    <img src="http://127.0.0.1/locallity/assets/_img/logo-2-01.jpg" alt="" class="--1"/>
+                                </div>
+
+                                <div class="card-body px-0 pt-2 pb-0">
+                                    <div class="text-center">
+                                        <h4 class="mb-0">Children's: Bebes y Niños</h4>
+                                        <p class="mb-0 --direccion">Monterrey, Nuevo León</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                                                <div class="col-6 col-sm-4 col-xl-3 px-2 px-sm-2  mb-3  --col-card">
+                            <a href="http://127.0.0.1/locallity/negocio.php" class="card">
+                                <div class="position-relative">
+                                    <img src="http://127.0.0.1/locallity/assets/_img/logo-3-01.jpg" alt="" class="--1"/>
+                                </div>
+
+                                <div class="card-body px-0 pt-2 pb-0">
+                                    <div class="text-center">
+                                        <h4 class="mb-0">Veterinaria Honorio</h4>
+                                        <p class="mb-0 --direccion">San Pedro Garza García, Nuevo León</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                                                <div class="col-6 col-sm-4 col-xl-3 px-2 px-sm-2  mb-3  --col-card">
+                            <a href="http://127.0.0.1/locallity/negocio.php" class="card">
+                                <div class="position-relative">
+                                    <img src="http://127.0.0.1/locallity/assets/_img/logo-5-01.jpg" alt="" class="--1"/>
+                                </div>
+
+                                <div class="card-body px-0 pt-2 pb-0">
+                                    <div class="text-center">
+                                        <h4 class="mb-0">Resto Bar Sophisticate</h4>
+                                        <p class="mb-0 --direccion">San Pedro Garza García, Nuevo León</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                                                <div class="col-6 col-sm-4 col-xl-3 px-2 px-sm-2  mb-3  --col-card">
+                            <a href="http://127.0.0.1/locallity/negocio.php" class="card">
+                                <div class="position-relative">
+                                    <img src="http://127.0.0.1/locallity/assets/_img/logo-7-01.jpg" alt="" class="--1"/>
+                                </div>
+
+                                <div class="card-body px-0 pt-2 pb-0">
+                                    <div class="text-center">
+                                        <h4 class="mb-0">Juguetería Toy Planet</h4>
+                                        <p class="mb-0 --direccion">Monterrey, Nuevo León</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                                                <div class="col-6 col-sm-4 col-xl-3 px-2 px-sm-2  mb-3  --col-card">
+                            <a href="http://127.0.0.1/locallity/negocio.php" class="card">
+                                <div class="position-relative">
+                                    <img src="http://127.0.0.1/locallity/assets/_img/logo-6-01.jpg" alt="" class="--1"/>
+                                </div>
+
+                                <div class="card-body px-0 pt-2 pb-0">
+                                    <div class="text-center">
+                                        <h4 class="mb-0">Resto Bar Sophisticate</h4>
+                                        <p class="mb-0 --direccion">San Pedro Garza García, Nuevo León</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                                                <div class="col-6 col-sm-4 col-xl-3 px-2 px-sm-2  mb-3  --col-card">
+                            <a href="http://127.0.0.1/locallity/negocio.php" class="card">
+                                <div class="position-relative">
+                                    <img src="http://127.0.0.1/locallity/assets/_img/logo-8-01.jpg" alt="" class="--1"/>
+                                </div>
+
+                                <div class="card-body px-0 pt-2 pb-0">
+                                    <div class="text-center">
+                                        <h4 class="mb-0">Juguetería Toy Planet</h4>
+                                        <p class="mb-0 --direccion">Monterrey, Nuevo León</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <nav>
+                                <ul class="pagination justify-content-center mt-2 mb-4">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Anterior">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Siguiente">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center py-3 text-center text-md-left gray-footer">
+
+                <div class="copyright-text">©2023 - Locallity</div>
+
+                <div class="copyright-links primary-hover mt-3 mt-md-0 d-none d-md-block">
+                    <ul class="list-inline">
+                        <li class="list-inline-item pl-2">
+                            <a class="list-group-item-action" href="https://www.instagram.com/locallity/" target="_blank">Términos&nbsp;y&nbsp;condiciones</a>
+                        </li>
+                        <li class="list-inline-item pl-2">
+                            <a class="list-group-item-action" href="https://www.facebook.com/__" target="_blank"><i class="mdi mdi-facebook-box mr-1"></i></a>
+                        </li>
+                        <li class="list-inline-item pl-2">
+                            <a class="list-group-item-action" href="https://www.instagram.com/locallity/" target="_blank"><i class="mdi mdi-instagram mr-1"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+</main>
+
+        <script src="http://127.0.0.1/locallity/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="http://127.0.0.1/locallity/assets/vendor/popper.js/umd/popper.min.js"></script>
+    <script src="http://127.0.0.1/locallity/assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="http://127.0.0.1/locallity/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        
+    <script src="http://127.0.0.1/locallity/assets/js/functions.js"></script>
+    <script src="http://127.0.0.1/locallity/assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+    <script>
+        /*
+         var slider = tns({
+            container: '.--slider-home',
+            items: 1,
+            mouseDrag: true,
+            swipeAngle: false,
+            speed: 400,
+            slideBy: 1,
+            autoplay: true, autoplayTimeout: 3000, autoplayHoverPause: true, autoplayButtonOutput: false,
+            controlsText: ['<i class="mdi mdi-chevron-left"></i>', '<i class="mdi mdi-chevron-right"></i>'],
+            responsive: {
+                0: {
+                    items: 2
+                },
+                576: {
+                    items: 3
+                },
+                768: {
+                    items: 4
+                },
+                992: {
+                    items: 5
+                },
+                1200: {
+                    items: 6
+                }
+            }
+        }); */
+
+        // -----------------------------------------------------------------------------
+        // Smooth scrolling -- Va hacia el HASH (ej. .com/pagina#section-1)
+        // -----------------------------------------------------------------------------
+        var scrollLink = $('.scroll');
+        
+        scrollLink.click(function(e) {
+            e.preventDefault();
+            $('body,html').animate({
+            scrollTop: $(this.hash).offset().top
+            }, 1000 );
+        });
+
+        // -----------------------------------------------------------------------------
+        // Esto es del dropdown que muestra las categorías
+        // Podría haberse reducido la cantidad de código, pero como la maquetación quizás cambie, prefiero dejarlo así
+        // -----------------------------------------------------------------------------
+        $(".--ul-categorias").hover(function(){
+            $(".--elige-una-categoria").addClass("d-none");
+        })
+
+        $(".--comida").hover(function(){
+                $(".---comida").removeClass("d-none");
+            $(".---infantil-bebe").addClass("d-none");
+            $(".---hogar").addClass("d-none");
+            $(".---papeleria").addClass("d-none");
+            $(".---eventos").addClass("d-none");
+            $(".---bienestar").addClass("d-none");
+            $(".---regalos").addClass("d-none");
+            $(".---shopping").addClass("d-none");
+        })
+        $(".--infantil-bebe").hover(function(){
+            $(".---comida").addClass("d-none");
+                $(".---infantil-bebe").removeClass("d-none");
+            $(".---hogar").addClass("d-none");
+            $(".---papeleria").addClass("d-none");
+            $(".---eventos").addClass("d-none");
+            $(".---bienestar").addClass("d-none");
+            $(".---regalos").addClass("d-none");
+            $(".---shopping").addClass("d-none");
+        })
+        $(".--hogar").hover(function(){
+            $(".---comida").addClass("d-none");
+            $(".---infantil-bebe").addClass("d-none");
+                $(".---hogar").removeClass("d-none");
+            $(".---papeleria").addClass("d-none");
+            $(".---eventos").addClass("d-none");
+            $(".---bienestar").addClass("d-none");
+            $(".---regalos").addClass("d-none");
+            $(".---shopping").addClass("d-none");
+        })
+        $(".--papeleria").hover(function(){
+            $(".---comida").addClass("d-none");
+            $(".---infantil-bebe").addClass("d-none");
+            $(".---hogar").addClass("d-none");
+                $(".---papeleria").removeClass("d-none");
+            $(".---eventos").addClass("d-none");
+            $(".---bienestar").addClass("d-none");
+            $(".---regalos").addClass("d-none");
+            $(".---shopping").addClass("d-none");
+        })
+        $(".--eventos").hover(function(){
+            $(".---comida").addClass("d-none");
+            $(".---infantil-bebe").addClass("d-none");
+            $(".---hogar").addClass("d-none");
+            $(".---papeleria").addClass("d-none");
+                $(".---eventos").removeClass("d-none");
+            $(".---bienestar").addClass("d-none");
+            $(".---regalos").addClass("d-none");
+            $(".---shopping").addClass("d-none");
+        })
+        $(".--bienestar").hover(function(){
+            $(".---comida").addClass("d-none");
+            $(".---infantil-bebe").addClass("d-none");
+            $(".---hogar").addClass("d-none");
+            $(".---papeleria").addClass("d-none");
+            $(".---eventos").addClass("d-none");
+                $(".---bienestar").removeClass("d-none");
+            $(".---regalos").addClass("d-none");
+            $(".---shopping").addClass("d-none");
+        })
+        $(".--regalos").hover(function(){
+            $(".---comida").addClass("d-none");
+            $(".---infantil-bebe").addClass("d-none");
+            $(".---hogar").addClass("d-none");
+            $(".---papeleria").addClass("d-none");
+            $(".---eventos").addClass("d-none");
+            $(".---bienestar").addClass("d-none");
+                $(".---regalos").removeClass("d-none");
+            $(".---shopping").addClass("d-none");
+        })
+        $(".--shopping").hover(function(){
+            $(".---comida").addClass("d-none");
+            $(".---infantil-bebe").addClass("d-none");
+            $(".---hogar").addClass("d-none");
+            $(".---papeleria").addClass("d-none");
+            $(".---eventos").addClass("d-none");
+            $(".---bienestar").addClass("d-none");
+            $(".---regalos").addClass("d-none");
+            $(".---shopping").removeClass("d-none");
+        })
+    </script>
+
+    <!-- --------------------------------------------------------------------------
+    - Los scripts únicos para la página /registra-tu-marca.html empiezan a partir de acá
+    --------------------------------------------------------------------------- -->
+    <script>
+        // -----------------------------------------------------------------------
+        // Filtros en página de anunciantes (xs/sm/md): Mostrar / Ocultar
+        // -----------------------------------------------------------------------
+        $(".--filtros").click(function(){
+            
+            var status = $(this).attr("status");
+
+            if(status == 'close'){
+                $('.--filtros').attr("status","open");
+                $('.--acordion-filtros-anunciantes').removeClass("d-none");
+                $('.--resultados-de-busqueda .col--2').addClass("d-none")
+            
+            }else if(status == 'open'){
+                $('.--filtros').attr("status","close");
+                $('.--acordion-filtros-anunciantes').addClass("d-none");
+                $('.--resultados-de-busqueda .col--2').removeClass("d-none");
+            }
+        
+        });
+    </script>
+
+    <!-- --------------------------------------------------------------------------
+    - Los scripts únicos para la página /registra-tu-marca.html empiezan a partir de acá
+    --------------------------------------------------------------------------- -->
+    <script src="http://127.0.0.1/locallity/assets/vendor/timedropper-jquery.js"></script>
+    <script>
+        // -----------------------------------------------------------------------------
+        // Etapa 1 de 3 :: Botón "siguiente"
+        // -----------------------------------------------------------------------------
+        $("#--etapa-1 .--btn-siguiente").click(function(){
+            $("#--etapa-1").addClass("d-none");
+            $("#--etapa-2").removeClass("d-none");
+            
+            $('html,body').animate({
+                scrollTop: 0
+            }, 700 );
+        });
+
+        // --
+        // -----------------------------------------------------------------------------
+        // Etapa 2 de 3 :: Botón "atras"
+        // -----------------------------------------------------------------------------
+        $("#--etapa-2 .--btn-atras").click(function(){
+            $("#--etapa-2").addClass("d-none");
+            $("#--etapa-1").removeClass("d-none"); // volvemos a etapa 1
+            
+            $('html,body').animate({
+                scrollTop: 0
+            }, 700 );
+        });
+        // -----------------------------------------------------------------------------
+        // Etapa 2 de 3 :: Botón "siguiente"
+        // -----------------------------------------------------------------------------
+        $("#--etapa-2 .--btn-siguiente").click(function(){
+            $("#--etapa-2").addClass("d-none");
+            $("#--etapa-3").removeClass("d-none");
+            
+            $('html,body').animate({
+                scrollTop: 0
+            }, 700 );
+        });
+
+        // --
+        // -----------------------------------------------------------------------------
+        // Etapa 3 de 3 :: Botón "atras"
+        // -----------------------------------------------------------------------------
+        $("#--etapa-3 .--btn-atras").click(function(){
+            $("#--etapa-3").addClass("d-none");
+            $("#--etapa-2").removeClass("d-none");
+            
+            $('html,body').animate({
+                scrollTop: 0
+            }, 700 );
+        });
+        // -----------------------------------------------------------------------------
+        // Etapa 3 de 3 :: Botón "siguiente"
+        // -----------------------------------------------------------------------------
+        $("#--etapa-3 .--btn-siguiente").click(function(){
+            $("#--etapa-3").addClass("d-none");
+            $("#--etapa-4").removeClass("d-none");
+            $(".--texto-principal").addClass("d-none");
+
+            $('html,body').animate({
+                scrollTop: 0
+            }, 700 );
+        });
+
+        // -----------------------------------------------------------------------------
+        // https://felixg.io/works/timedropper-jquery
+        // Acá inicio cada uno de los timeDropper
+        // https://felixg.io/docs/guides/timedropper-jquery/options
+        // -----------------------------------------------------------------------------
+        $('#--horarios-hora-apertura-1').timeDropper({
+            customClass: 'timeDropperLocallity',
+            format: 'HH:mm',
+            meridians: false
+        });
+        $('#--horarios-hora-cierre-1').timeDropper({
+            customClass: 'timeDropperLocallity',
+            format: 'HH:mm',
+            meridians: false
+        });
+        $('#--horarios-hora-apertura-2').timeDropper({
+            customClass: 'timeDropperLocallity',
+            format: 'HH:mm',
+            meridians: false
+        });
+        $('#--horarios-hora-cierre-2').timeDropper({
+            customClass: 'timeDropperLocallity',
+            format: 'HH:mm',
+            meridians: false
+        });
+    </script>
+
+</body>
+</html>
